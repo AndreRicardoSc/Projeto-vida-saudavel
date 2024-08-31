@@ -54,24 +54,71 @@ html {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: calc(10px + 1vw);
    color: #2d2d29;
+   
 }
 a {
    color: #2d2d29;
    text-decoration: none;
 }
 main {
-   margin: 0 10vw 0 10vw;
+	margin: 0 10vw 0 10vw;
 }
+
 /*=======================================================================
                            INTRODUÇÃO
 ==========================================================================*/
-section.introducao h1 {
-   text-align: center;
-   margin: 2rem;
+
+section.introducao h1{
+	text-align: center;
+	margin: 2vw;
 }
 section.introducao ul {
-   display: flex;
-   background: #3ca2a2;
-   border-radius: 15px;
-   padding: 2vw;
+	display: flex;
+	background: #3ca2a2;
+    border-radius: 15px;
+    padding: 2vw;
+}
+
+section.introducao ul li {
+	background: white;
+	margin: 2vw 1vw 2vw 0;
+	padding: 2vw;
+	border-radius: 15px;
+}
+section.direction nav button{
+	margin: 5vw 0 0 0;
+	font-size: 1rem;
+	width: 10rem;
+	height: 3rem;
+	background: #92c7a3;
+	border-style: solid;
+	border: #3CA2A2;
+	border-radius: 15px;
+}
+section.direction nav ul {
+	display: flex;
+	justify-content: right;
+}
+section.direction nav ul li {
+	border-radius: 10px;
+	margin: 5vw 2vw 0 2vw;
+	background: #215A6D ;
+	padding: 2px 10px 5px 10px;
+}
+section.direction nav ul li a{
+	color: white;
+	font-size: 15px;
+}
+/*=======================================================================
+                           FOOTER
+==========================================================================*/
+footer {
+	display: flex;
+	margin: 5vw 0 0 0;
+	padding: 0 10vw 0 10vw; ;
+	background: #DFECE6;
+}
+footer p {
+	font-size: 15px;
+	margin: 3vw 0 0 5vw;
 }
