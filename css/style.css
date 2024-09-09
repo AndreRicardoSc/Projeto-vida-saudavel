@@ -67,7 +67,10 @@ main {
 /*=======================================================================
                            INTRODUÇÃO
 ==========================================================================*/
-
+header img {
+	width: 100%;
+	height: 100%;
+}
 section.introducao h1{
 	font-weight: bold;
 	text-align: center;
@@ -110,28 +113,28 @@ section.direction nav ul li a{
 /*=======================================================================
                            CRIA TREINO-TOPO
 ==========================================================================*/
-header {
+header.cria-treino {
 	background-color: #DFECE6;
 	display: flex;
 	justify-content: space-between;
 	padding: 3vw;
 }
-header div h1{
+header.cria-treino div h1{
 	text-align: center;
 	font-weight: bold;
 	margin: 2vw;
 }
-header div p {
+header.cria-treino div p {
 	margin: 2vw 5vw 2vw 5vw;
 }
-header nav ul {
+header.cria-treino nav ul {
 	display: flex;
 	margin: 2vw;
 }
-header nav ul li {
+header.cria-treino nav ul li {
 	margin: 0 3vw 0 3vw;
 }
-header nav ul li a{
+header.cria-treino nav ul li a{
 	color: gray;
 	text-decoration: underline;
 }
