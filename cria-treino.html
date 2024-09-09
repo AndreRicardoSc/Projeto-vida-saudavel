@@ -36,9 +36,10 @@
 
         </section>
     </main>
-    <form action="#">
+    <form id="roteiroPerguntas" name="roteiroPerguntas" action="#">
         <label for="restricao">Você tem alguma restrição para exercícios?</label>
-        <input type="text">
+        <input type="text" id="restricao" name="restricao">
+        <input type="submit" value="pegar info" onclick="pegarInfo()">
     </form>
     <footer>
         <p>
@@ -57,5 +58,6 @@
             Eric A. Meyer
         </p>
    </footer>
+   <script src="js/cria-treino.js"></script>
 </body>
 </html>
