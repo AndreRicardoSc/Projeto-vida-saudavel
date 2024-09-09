@@ -37,10 +37,25 @@
         </section>
     </main>
     <form id="roteiroPerguntas" name="roteiroPerguntas" action="#">
-        <label for="restricao">Você tem alguma restrição para exercícios?</label>
-        <input type="text" id="restricao" name="restricao">
-        <input type="submit" value="pegar info" onclick="pegarInfo()">
-    </form>
+
+    	<label for="preferencia">Você tem alguma preferência para práticas esportivas? Algo que já pratique?</label>
+    	<select name="tipoExercicios" id="tipoExercicios" name="tipoExercicios">
+        	<option value="musculacao">Musculação</option>
+        	<option value="corrida">Corrida</option>
+        	<option value="competicao">Esportes competitivos</option>
+        	<option value="arteMarcial">Artes marciais</option>
+        	<option value="calistenia">Calistenia</option>
+    	</select>
+
+    	<label for="restricao">Você tem alguma restrição para exercícios?</label>
+    	<input type="text" id="restricao" name="restricao">
+
+    	<label for="objetivo">Qual seu objetivo com esse treino?</label>
+    	<input type="text" id="objetivo" name="objetivo">
+
+    	<input type="submit" value="pegar info" onclick="pegarInfo()">
+	</form>
+
     <footer>
         <p>
             Copyright &copy; Todos os direitos reservados
