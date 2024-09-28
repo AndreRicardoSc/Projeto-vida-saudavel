@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="cria-treino">
         <div>
@@ -14,52 +16,89 @@
                 Estar ciente de onde estão saindo os resultados de seu físico e sua saúde mental é essencial.
             </p>
             <p>
-                Nesses materiais ao lado você irá encontrar conceitos da biologia e da psicologia que irão te ajudar a entender esta jornada de exercícios e te dar um sentido para tudo isso.
+                Nesses materiais ao lado você irá encontrar conceitos da biologia e da psicologia que irão te ajudar a
+                entender esta jornada de exercícios e te dar um sentido para tudo isso.
+            </p>
+            <p>
+                Caso já esteja ciente, divirta-se com nosso criador de treinos!
             </p>
         </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="sobre-exercicios.html">Sobre Exercícios</a>
-                    </li>
-                    <li>
-                        <a href="dicas.html">Dicas</a>
-                    </li>
-                    <li>
-                        <a href="alimentacao.html">Alimentação</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="sobre-exercicios.html">Sobre Exercícios</a>
+                </li>
+                <li>
+                    <a href="dicas.html">Dicas</a>
+                </li>
+                <li>
+                    <a href="alimentacao.html">Alimentação</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="invite-ct">
-
+            <h2>Nosso Cria Treino</h2>
+            <div>
+                <p>
+                    Temos o objetivo de "sugerir" uma rotina para você que tem dificuldades com essa função em seu dia a
+                    dia.
+                </p>
+                <p>
+                    Lembre-se de não exceder seu limite a ponto de machucar, se sentir algum desconforto, PARE!
+                </p>
+                <p>
+                    Faça os exercícios com calma, desfrute de uma vida mais saudável e enriqueça sua saúde
+                    física-mental.
+                </p>
+            </div>
         </section>
-        <form class="roteiro" id="roteiroPerguntas" name="roteiroPerguntas" action="#">
+        <form class="roteiro" id="roteiroPerguntas" name="roteiroPerguntas">
+            <h2>Responda</h2>
+            <div>
+                <label for="preferencia">
+                    Você tem alguma preferência para práticas esportivas? Algo que já pratique?
+                </label>
+                <select class="preferencia" name="preferencia" id="preferencia">
+                    <option value="nenhuma">Sem preferência</option>
+                    <option value="musculacao">Musculação</option>
+                    <option value="corrida">Corrida</option>
+                    <option value="competicao">Esportes competitivos</option>
+                    <option value="arteMarcial">Artes marciais</option>
+                    <option value="calistenia">Calistenia</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <label for="temRestricao">
+                    Você tem alguma restrição (dores) para realizar exercícios?
+                </label>
+                <button onclick="aparecerRestricao()">Sim</button>
+                <button>Não</button>
+                <br>
+            </div>
+            <div class="ocult" id="ocult">
+                <label for="lugarRestricao">
+                    Em que parte do corpo você possui essa "limitação" ?
+                </label>
+                <select name="lugarRestricao" id="lugarRestricao">
+                    <option value="pescoco">Pescoço</option>
+                    <option value="coluna">Coluna</option>
+                    <option value="ombros">Ombros</option>
+                    <option value="bracos">Braços</option>
+                    <option value="maos">Mãos</option>
+                    <option value="pernas">Pernas</option>
+                    <option value="pes">Pés</option>
+                </select>
+                <br>
+            </div>
+            <Button onclick="criarTreino()">Criar Treino</Button>
 
-            <label for="preferencia">
-                Você tem alguma preferência para práticas esportivas? Algo que já pratique?
-            </label>
-            <select class="opcoesExercicio" name="tipoExercicios" id="tipoExercicios" name="tipoExercicios">
-                <option value="musculacao">Musculação</option>
-                <option value="corrida">Corrida</option>
-                <option value="competicao">Esportes competitivos</option>
-                <option value="arteMarcial">Artes marciais</option>
-                <option value="calistenia">Calistenia</option>
-            </select> <br>
-    
-            <label for="restricao">
-                Você tem alguma restrição para exercícios?
-            </label> <br>
-            <select name="" id=""></select>
-             <br>
-    
-            <label for="objetivo">
-                Qual seu objetivo com esse treino?
-            </label> <br>
-    
-            <input type="submit" value="Criar" onclick="pegarInfo()">
         </form>
+        <section id="treino">
+            <h2>Seu treino será criado aqui...</h2>
+        </section>
     </main>
 
     <footer>
@@ -78,7 +117,8 @@
             Créditos do CSS Tools - Reset CSS : <br>
             Eric A. Meyer
         </p>
-   </footer>
-   <script src="js/cria-treino.js"></script>
+    </footer>
+    <script src="js/cria-treino.js"></script>
 </body>
+
 </html>

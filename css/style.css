@@ -118,6 +118,8 @@ header.cria-treino {
 	display: flex;
 	justify-content: space-between;
 	padding: 3vw;
+	border-bottom: 1px solid gray;
+	margin: 0 0 3vw 0;
 }
 header.cria-treino div {
 	background: #00ffba;
@@ -144,28 +146,61 @@ header.cria-treino nav ul li a{
 	text-decoration: underline;
 }
 /*=======================================================================
-                           CRIA-TREINO-FORM
+                           CRIA-TREINO-OBJETIVOS
 ==========================================================================*/
-form.roteiro select.opcoesExercicio {
-	margin: 0 0 0 2vw;
-	border: solid;
-	border-color: black;
-	border-radius: 10px;
-	padding: 6px;
-	font-size: 20px;
-	background: #00ffba;
-	height: 50px;
-	width: 150px;
+section.invite-ct h2{
+	
+	text-align: center;
+	font-weight: bold;
+	color: #00ffba;
+	margin: 0 0 2vw 0;
 }
-form.roteiro input.restricao {
-	margin: 5px 0 5px 0;
-	background: #00ffba;
-	border: solid;
-	border-color: black;
-	border-radius: 10px;
-	width: 30rem;
-	height: 8rem;
+section.invite-ct div{
+	display: flex;
+	margin: 0 0 3vw 0;
 }
+/*=======================================================================
+                           CRIA-TREINO-PERGUNTAS
+==========================================================================*/
+form.roteiro{
+	margin: 0 3vw 0 3vw;
+	border-radius: 15px;
+	background: rgb(87, 87, 87);
+	padding: 2vw 4vw 2vw 4vw;
+}
+form.roteiro h2 {
+	color: #00ffba;
+	text-align: center;
+	text-decoration: underline;
+}
+form.roteiro div{
+	margin: 2vw 3vw 2vw 5vw;
+}
+form.roteiro div.ocult{
+	display: none;
+}
+
+form.roteiro select{
+	font-size: 18px;
+	border: none;
+	background: #00ffba;
+	border-radius: 5px;
+}
+form.roteiro select:hover{
+	background-color: white;
+	font-size: 17px;
+}
+form.roteiro button {
+	font-size: 18px;
+	border: none;
+	background: #00ffba;
+	border-radius: 5px;
+}
+form.roteiro button:hover{
+	background-color: white;
+	font-size: 17px;
+}
+
 
 /*=======================================================================
                            FOOTER

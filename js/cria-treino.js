@@ -1,6 +1,9 @@
-function pegarInfo() {
-    const tiposExercicio = document.querySelector("select#tipoExercicios").value;
-    const restricao = document.querySelector("textarea.restricao").value;
-
-    
-}
+    let preferencia = document.getElementById("preferencia").value;
+    let temRestricao = document.getElementById("temRestricao").value;
+    let divAparecer = document.getElementById("ocult");
+    function aparecerRestricao() {
+        divAparecer.style.display = "block"
+    }
+    function criarTreino() {
+        
+    }
