@@ -190,10 +190,7 @@ section.informativo ul li{
 	margin: 1vw 1.5vw 1vw 1.5vw;
 	padding: 1vw;
 }
-section.informativo ul li.cinza {
-	background: rgb(87, 87, 87);
-	padding: 1vw;
-}
+
 section.informativo ul li h2{
 	color: #00ffba;
 	text-align: center;
