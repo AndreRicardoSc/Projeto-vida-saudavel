@@ -165,47 +165,7 @@ section.invite-ct div{
 	display: flex;
 	margin: 0 0 3vw 0;
 }
-/*=======================================================================
-                           CRIA-TREINO-PERGUNTAS
-==========================================================================*/
-form.roteiro{
-	margin: 0 3vw 0 3vw;
-	border-radius: 15px;
-	background: rgb(87, 87, 87);
-	padding: 2vw 4vw 2vw 4vw;
-}
-form.roteiro h2 {
-	color: #00ffba;
-	text-align: center;
-	text-decoration: underline;
-}
-form.roteiro div{
-	margin: 2vw 3vw 2vw 5vw;
-}
-form.roteiro div.ocult{
-	display: none;
-}
 
-form.roteiro select{
-	font-size: 18px;
-	border: none;
-	background: #00ffba;
-	border-radius: 5px;
-}
-form.roteiro select:hover{
-	background-color: white;
-	font-size: 17px;
-}
-form.roteiro button {
-	font-size: 18px;
-	border: none;
-	background: #00ffba;
-	border-radius: 5px;
-}
-form.roteiro button:hover{
-	background-color: white;
-	font-size: 17px;
-}
 
 /*=======================================================================
                            SOBRE-EXERCICIOS
