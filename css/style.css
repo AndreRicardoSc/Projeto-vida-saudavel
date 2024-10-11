@@ -175,6 +175,7 @@ section.geral-exercicios h1{
 	color: #00ffba;
 	font-size: 2rem;
 	text-align: center;
+	font-weight: bold;
 }
 section.geral-exercicios p {
 	margin: 1vw 0 1vw 0;
@@ -183,14 +184,24 @@ section.informativo{
 	margin: 4vw 0 0 0;
 }
 section.informativo ul li{
-	margin: 1vw 1.5vw 1vw 1.5vw;
-	padding: 1vw;
-}
-section.informativo ul li div {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0 50px 0;
+}
+
+section.informativo ul li div{
+	margin: 0 4vw 0 0;
+}
+section.informativo ul li div img{
+	width: 500px;
+	border: solid;
+	border-radius: 50px;
+	border-color: #00ffba;
 }
 section.informativo ul li h2{
 	color: #00ffba;
+	font-weight: bold;
 	text-align: center;
 	margin: 1vw 0 2vw 0;
 }
