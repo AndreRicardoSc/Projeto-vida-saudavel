@@ -182,15 +182,13 @@ section.geral-exercicios p {
 section.informativo{
 	margin: 4vw 0 0 0;
 }
-section.informativo ul {
-	display: flex;
-	justify-content: space-evenly;
-}
 section.informativo ul li{
 	margin: 1vw 1.5vw 1vw 1.5vw;
 	padding: 1vw;
 }
-
+section.informativo ul li div {
+	display: flex;
+}
 section.informativo ul li h2{
 	color: #00ffba;
 	text-align: center;
