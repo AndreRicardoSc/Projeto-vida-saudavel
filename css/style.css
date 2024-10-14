@@ -175,7 +175,7 @@ section.invite-ct div{
                            SOBRE-EXERCICIOS
 ==========================================================================*/
 section.geral-exercicios{
-	margin: 6vw 3vw 8vw 3vw;
+	margin: 4vw 3vw 4vw 3vw;
 }
 section.geral-exercicios h1{
 	margin: 4vw 0 4vw 0;
@@ -192,6 +192,7 @@ section.geral-exercicios p{
 	border: #00ffba;
 	border-radius: 20px;
 	padding: 30px;
+	
 }
 section.informativo{
 	margin: 4vw 0 0 0;
@@ -201,6 +202,8 @@ section.informativo ul li{
 	justify-content: space-between;
 	align-items: center;
 	margin: 50px 0 50px 0;
+	border-bottom: 1px solid gray;
+	padding: 0 0 3vw 0;
 }
 
 section.informativo ul li div{
@@ -222,10 +225,11 @@ section.informativo ul li h2{
                            ALIMENTAÇÃO-CONCEITOS-DIETA
 ==========================================================================*/
 section.conceitos-dieta{
-	margin: 2vw 0 2vw 0;
+	margin: 4vw 3vw 4vw 3vw;
 	border-bottom: solid 1px gray;
 }
 section.conceitos-dieta h1{
+	margin: 4vw 0 4vw 0;
 	color: #00ffba;
 	font-size: 2rem;
 	text-align: center;
@@ -275,6 +279,70 @@ section.dicas-dieta h2{
 	font-weight: bold;
 }
 /*=======================================================================
+                           DICAS-INTRODUCTION
+==========================================================================*/
+section.introduction{
+	margin: 4vw 3vw 4vw 3vw;
+}
+section.introduction h1{
+	margin: 4vw 0 4vw 0;
+	color: #00ffba;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+section.introduction p{
+	margin: 2vw 0 2vw 0;
+}
+/*=======================================================================
+                           DICAS-DUVIDAS
+==========================================================================*/
+section.duvidas{
+	margin: 0 3vw 0 3vw;
+}
+section.duvidas h2{
+	color: #00ffba;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+section.duvidas p{
+	margin: 2vw 0 2vw 0;
+}
+section.duvidas img{
+	border: solid #00ffba;
+	border-radius: 10px;
+	width: 30vw;
+	height: 20vw;
+	margin: 2vw 0 2vw 0;
+}
+section.duvidas p span{
+	color: #00ffba;
+	font-weight: bold;
+}
+section.duvidas ul{
+	display: flex;
+	justify-content: space-between;
+}
+section.duvidas ul li{
+	margin: 0 2vw 3vw 0;
+	padding: 3vw;
+	border: solid #00ffba;
+	border-radius: 10px;
+}
+section.duvidas ul li h3{
+	text-align: center;
+	color: #00ffba;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+section.duvidas > div{
+	display: flex;
+	justify-content: center;
+}
+section.duvidas div{
+	margin: 0 4vw 0 1.5vw;
+}
+/*=======================================================================
                            FOOTER
 ==========================================================================*/
 footer {
@@ -286,5 +354,5 @@ footer {
 }
 footer p {
 	font-size: 15px;
-	margin: 3vw 0 0 5vw;
+	margin: 3vw 0 3vw 5vw;
 }
