@@ -174,15 +174,24 @@ section.invite-ct div{
 /*=======================================================================
                            SOBRE-EXERCICIOS
 ==========================================================================*/
+section.geral-exercicios{
+	margin: 6vw 3vw 8vw 3vw;
+}
 section.geral-exercicios h1{
-	margin: 2vw 0 2vw 0;
+	margin: 4vw 0 4vw 0;
 	color: #00ffba;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 }
-section.geral-exercicios p {
+section.geral-exercicios p{
 	margin: 1vw 0 1vw 0;
+	color: black;
+	text-align: justify;
+	background-color: #00ffba;
+	border: #00ffba;
+	border-radius: 20px;
+	padding: 30px;
 }
 section.informativo{
 	margin: 4vw 0 0 0;
