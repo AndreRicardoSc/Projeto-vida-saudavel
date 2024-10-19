@@ -74,10 +74,16 @@ section{
 header img {
 	width: 100%;
 	height: 100%;
+	border-bottom: solid 2px white;
+}
+header img.logo{
+	border-bottom: none;
+	width: 4rem;
 }
 header nav ul{
     display: flex;
     justify-content: space-evenly;
+	align-items: center;
     background-color: #00ffba;
 }
 header nav ul li{
@@ -86,14 +92,11 @@ header nav ul li{
 header nav ul li a{
 	font-size: 1.5rem;
 	color: black;
-	font-size: 15px;
+	font-size: 25px;
 }
 header nav ul li p{
 	color: black;
 	font-size: 15px;
-}
-header img{
-	border-bottom: solid 2px white;
 }
 section.introducao h1{
 	font-weight: bold;
@@ -180,13 +183,6 @@ section.invite-ct div{
 section.geral-exercicios{
 	margin: 4vw 3vw 4vw 3vw;
 }
-section.geral-exercicios h1{
-	margin: 4vw 0 4vw 0;
-	color: #00ffba;
-	font-size: 2rem;
-	text-align: center;
-	font-weight: bold;
-}
 section.geral-exercicios p{
 	margin: 1vw 0 1vw 0;
 	color: black;
@@ -195,7 +191,6 @@ section.geral-exercicios p{
 	border: #00ffba;
 	border-radius: 20px;
 	padding: 30px;
-	
 }
 section.informativo{
 	margin: 4vw 0 0 0;
