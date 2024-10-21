@@ -78,7 +78,21 @@ header img {
 }
 header img.logo{
 	border-bottom: none;
-	width: 4rem;
+	width: 4rem; 
+	animation: logo-animation 1s;
+}
+@keyframes logo-animation{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(180deg);
+		width: 5rem;
+	}
+	100%{
+		transform: rotate(360deg);
+		width: 4rem;
+	}
 }
 header nav ul{
     display: flex;
