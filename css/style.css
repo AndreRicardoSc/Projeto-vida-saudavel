@@ -104,7 +104,7 @@ header nav ul li{
     margin: 3vw 0 3vw 0;
 }
 header nav ul li a{
-	font-size: 1.5rem;
+	font-size: 1.5re;
 	color: black;
 	font-size: 25px;
 }
@@ -358,13 +358,24 @@ section.duvidas div{
                            FOOTER
 ==========================================================================*/
 footer {
-	color: black;
+	color: white;
 	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
 	margin: 5vw 0 0 0;
 	padding: 0 10vw 0 10vw; ;
-	background: #DFECE6;
+	background: #323232;
+	border-top: solid 2px white;
 }
 footer p {
 	font-size: 15px;
-	margin: 3vw 0 3vw 5vw;
+	margin: 3vw 5vw 3vw 5vw;
+	
 }
+footer p a{
+	margin: 0 1vw 0 1vw;
+	font-size: 40px;
+	color: white;
+}
+
