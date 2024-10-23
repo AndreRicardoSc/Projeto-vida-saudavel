@@ -367,6 +367,44 @@ footer {
 	padding: 0 10vw 0 10vw; ;
 	background: #323232;
 	border-top: solid 2px white;
+	height: 15vw
+}
+footer i.fa-dumbbell{
+	margin: 13vw 0 0 0 ;
+	animation: alter-geral 2s infinite;
+}
+@keyframes alter-geral{
+	0%{
+		margin: 13vw 0 0 0;
+	}
+	50%{
+		margin: 0;
+		font-size: 1rem;
+		transform: rotate(360deg);
+	}
+	100%{
+		margin: 13vw 0 0 0;
+	}
+}
+footer.inicio{
+	height: 10vw;
+}
+footer.inicio i.fa-dumbbell{
+	margin: 8vw 0 0 0;
+	animation: alter-inicio 2s infinite;
+}
+@keyframes alter-inicio{
+	0%{
+		margin: 8vw 0 0 0;
+	}
+	50%{
+		margin: 0;
+		font-size: 1rem;
+		transform: rotate(360deg);
+	}
+	100%{
+		margin: 8vw 0 0 0;
+	}
 }
 footer p {
 	font-size: 15px;
