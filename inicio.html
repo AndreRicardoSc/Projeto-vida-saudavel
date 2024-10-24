@@ -51,7 +51,11 @@
             <nav>
                 <button>
                     <a href="cria-treino.html">Crie seu treino conosco</a>
-                </button>
+                </button onclick="audio.play()">
+                <script type="text/javascript">
+                    const audio = new Audio();
+                    audio.src ="" //o arquivo de audio tem que estar dentro da pasta junto com o index para funcionar//
+                </script>
             </nav>
         </section>
         <footer class="inicio">
