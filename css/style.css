@@ -142,54 +142,34 @@ section.direction nav button{
 	border: none;
 }
 /*=======================================================================
-                           CRIA TREINO-TOPO
-==========================================================================*/
-header.cria-treino {
-	display: flex;
-	justify-content: space-between;
-	padding: 3vw;
-	border-bottom: 1px solid gray;
-	margin: 0 0 3vw 0;
-}
-header.cria-treino div {
-	background: #00ffba;
-	border-radius: 15px;
-	color: black;
-}
-header.cria-treino div h1{
-	text-align: center;
-	font-weight: bold;
-	margin: 2vw;
-}
-header.cria-treino div p {
-	margin: 2vw 5vw 2vw 5vw;
-}
-header.cria-treino nav ul {
-	display: flex;
-	margin: 2vw;
-}
-header.cria-treino nav ul li {
-	margin: 0 3vw 0 3vw;
-}
-header.cria-treino nav ul li a{
-	color: gray;
-	text-decoration: underline;
-}
-/*=======================================================================
                            CRIA-TREINO-OBJETIVOS
 ==========================================================================*/
 section.invite-ct h2{
-	
 	text-align: center;
 	font-weight: bold;
 	color: #00ffba;
 	margin: 0 0 2vw 0;
 }
-section.invite-ct div{
+section.invite-ct div.nosso{
 	display: flex;
 	margin: 0 0 3vw 0;
 }
-
+section.invite-ct div p{
+	margin: 2vw 3vw 2vw 0;
+}
+section.invite-ct div.aviso{
+	background: #00ffba;
+	border-radius: 15px;
+	color: black;
+	padding: 2vw;
+	text-align: center;
+	margin: 4vw 0 4vw 0;
+}
+section.invite-ct div.aviso h1{
+	text-align: center;
+	font-weight: bold;
+	margin: 2vw;
+}
 
 /*=======================================================================
                            SOBRE-EXERCICIOS
@@ -217,15 +197,25 @@ section.informativo ul li{
 	border-bottom: 1px solid gray;
 	padding: 0 0 3vw 0;
 }
+section.informativo ul li.no-border{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0 50px 0;
+	border-bottom: none;
+	padding: 0 0 3vw 0;
+}
 
 section.informativo ul li div{
 	margin: 0 4vw 0 0;
 }
 section.informativo ul li div img{
 	width: 500px;
+	height: 330px;
 	border: solid;
 	border-radius: 50px;
 	border-color: #00ffba;
+	
 }
 section.informativo ul li h2{
 	color: #00ffba;
@@ -360,10 +350,15 @@ section.duvidas div{
 section.referencias{
 	margin: 2vw 0 2vw 0;
 }
+section.referencias div.texto{
+	border: #00ffba solid;
+	border-radius: 25px;
+	padding: 10px;
+}
 section.referencias h1{
 	font-size: 2rem;
 	font-weight: bold;
-	color: #00ffba;
+	color: white;
 	text-align: center;
 	margin: 2vw 0 2vw 0;
 }
@@ -385,27 +380,10 @@ footer {
 	border-top: solid 2px white;
 	height: 15vw
 }
-footer i.fa-dumbbell{
-	margin: 13vw 0 0 0 ;
-	animation: alter-geral 2s infinite;
-}
-@keyframes alter-geral{
-	0%{
-		margin: 13vw 0 0 0;
-	}
-	50%{
-		margin: 0;
-		font-size: 1rem;
-		transform: rotate(360deg);
-	}
-	100%{
-		margin: 13vw 0 0 0;
-	}
-}
-footer.inicio{
+footer{
 	height: 10vw;
 }
-footer.inicio i.fa-dumbbell{
+footer i.fa-dumbbell{
 	margin: 8vw 0 0 0;
 	animation: alter-inicio 2s infinite;
 }
