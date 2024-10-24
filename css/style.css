@@ -355,6 +355,22 @@ section.duvidas div{
 	margin: 0 4vw 0 1.5vw;
 }
 /*=======================================================================
+                           REFERENCIAS
+==========================================================================*/
+section.referencias{
+	margin: 2vw 0 2vw 0;
+}
+section.referencias h1{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #00ffba;
+	text-align: center;
+	margin: 2vw 0 2vw 0;
+}
+section.referencias p{
+	margin: 2vw 0 2vw 0;
+}
+/*=======================================================================
                            FOOTER
 ==========================================================================*/
 footer {
