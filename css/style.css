@@ -353,7 +353,8 @@ section.referencias{
 section.referencias div.texto{
 	border: #00ffba solid;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 4vw;
+	flex-wrap: wrap;
 }
 section.referencias h1{
 	font-size: 2rem;
@@ -364,6 +365,24 @@ section.referencias h1{
 }
 section.referencias p{
 	margin: 2vw 0 2vw 0;
+}
+section.referencias p a{
+	color: white;
+}
+/*=======================================================================
+                           SOBRE-NÓS
+==========================================================================*/
+section.sobre{
+	margin: 4vw 0 0 0 ;
+}
+section.sobre p{
+	margin: 2vw 0 2vw 0;
+}
+section.sobre h2{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #00ffba;
+	margin: 4vw 0 2vw 0;
 }
 /*=======================================================================
                            FOOTER
