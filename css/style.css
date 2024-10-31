@@ -374,7 +374,8 @@ section.referencias p a{
 }
 /*=======================================================================
                            VIDEO
-==========================================================================*/section.video{
+==========================================================================*/
+section.video{
 	text-align: center;
 }
 section.video h2{
@@ -396,6 +397,22 @@ section.video p{
     padding: 2vw;
 }
 section.video iframe{
+	border-radius: 20px;
+	border: solid #00ffba 5px;
+}
+section.videofood{
+	text-align: center;
+	border-top: solid 1px;
+	margin: 0 10vw 0 10vw;
+	padding: 4vw 0 0 0;
+}
+section.videofood h2{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #00ffba;
+	margin: 0 0 4vw 0;
+}
+section.videofood iframe{
 	border-radius: 20px;
 	border: solid #00ffba 5px;
 }
