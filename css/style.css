@@ -477,3 +477,9 @@ footer p a{
 	color: white;
 }
 
+
+@media screen and (max-width: 1026px){
+	.menu{
+		display: none;
+	}
+}
