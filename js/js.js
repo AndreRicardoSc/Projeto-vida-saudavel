@@ -5,7 +5,7 @@ function criarTreino(event) {
     //gerador aquecimento
     let aquecimento = document.querySelector('.aquecimento');
     if (tipoAquecimento == "pescoco") {
-        aquecimento.innerHTML = `<p>aquecimento pescoço</p>`;
+        aquecimento.innerHTML = ``;
     }
     else if (tipoAquecimento == "ombros") {
         aquecimento.innerHTML = `<p>aquecimento ombros</p>`;
