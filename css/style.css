@@ -530,5 +530,13 @@ section.referencias div.texto{
 }section.sobre p{
 	margin: 2vw 0 2vw 0;
 	font-size: 1.5rem;
+}section.invite-ct div.nosso{
+	flex-direction: column;
+	text-align: center;
+}section.invite-ct h2{
+	text-align: center;
+	font-weight: bold;
+	color: #00ffba;
+	margin: 0 0 2vw 0;
 }
 }
