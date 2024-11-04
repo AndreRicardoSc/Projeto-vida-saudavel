@@ -476,10 +476,59 @@ footer p a{
 	font-size: 40px;
 	color: white;
 }
-
-
-@media screen and (max-width: 1026px){
-	.menu{
-		display: none;
+/*=======================================================================
+                           responsivel
+==========================================================================*/
+@media screen and (max-width: 1050px){	
+	.flexfooter{
+		flex-direction: row-reverse;
 	}
+	.flex2{
+		flex-direction: column;
+	}
+	.no-border{
+		flex-direction: column-reverse;
+	}
+	.flex{
+		flex-direction: column-reverse;
+	}
+	section.informativo ul li div img{
+		width: 90%;
+		height: 90%;
+	}section.video iframe{
+		width: 90%;
+		height: 90%;
+	}
+	section.videofood iframe{
+		width: 80%;
+		height: 80%;
+	}
+	section.dicas-dieta p{
+		margin: 2vw 0 10vw 0;
+	}
+	section.dicas-dieta h2{
+		font-size: 1rem;
+		color: #00ffba;
+		font-weight: bold;
+	}
+	footer {
+		height: 30vw
+	}
+	section.duvidas img{
+	width: 90%;
+	height: 90%;
+}
+section.duvidas p{
+	margin: 2vw 0 5vw 0;
+}
+section.referencias div.texto{
+	font-size: 11px;
+	border: #00ffba solid;
+	border-radius: 25px;
+	padding: 4vw;
+	flex-wrap: wrap;
+}section.sobre p{
+	margin: 2vw 0 2vw 0;
+	font-size: 1.5rem;
+}
 }
