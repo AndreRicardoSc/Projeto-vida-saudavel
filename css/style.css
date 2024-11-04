@@ -145,7 +145,7 @@ section.direction nav button{
 	border: none;
 }
 /*=======================================================================
-                           CRIA-TREINO-OBJETIVOS
+                           CRIAR-TREINO-OBJETIVOS
 ==========================================================================*/
 section.invite-ct h2{
 	text-align: center;
@@ -469,7 +469,6 @@ footer i.fa-dumbbell{
 footer p {
 	font-size: 15px;
 	margin: 3vw 5vw 3vw 5vw;
-	
 }
 footer p a{
 	margin: 0 1vw 0 1vw;
@@ -480,9 +479,6 @@ footer p a{
                            responsivel
 ==========================================================================*/
 @media screen and (max-width: 1000px){	
-	.flexfooter{
-		flex-direction: row-reverse;
-	}
 	.flex2{
 		flex-direction: column;
 	}
@@ -494,15 +490,15 @@ footer p a{
 	}
 	section.informativo ul li div img{
 		margin: 0vw 0vw 0vw 5vw ;
-		width: 90%;
-		height: 90%;
+		width: 80vw;
+		height: 50vw;
 	}section.video iframe{
-		width: 90%;
-		height: 90%;
+		width: 70vw;
+		height: 40vw;
 	}
 	section.videofood iframe{
-		width: 80%;
-		height: 80%;
+		width: 70vw;
+		height: 40vw;
 	}
 	section.dicas-dieta p{
 		margin: 2vw 0 10vw 0;
@@ -512,8 +508,13 @@ footer p a{
 		color: #00ffba;
 		font-weight: bold;
 	}
+	/*=======================================================================
+                          			footer
+==========================================================================*/
 	footer {
-		height: 30vw
+		height: 35vw
+	}footer p{
+		display: flex;
 	}
 	section.duvidas img{
     margin:0vw 0vw 0vw 2vw;
@@ -545,7 +546,6 @@ section.informativo ul li p{
 section.informativo ul li.no-border{
 	align-items: center;
 }section.informativo ul li h2{
-	
 	text-align: center;
 	margin: 1vw 0 2vw 5vw;
 }
@@ -595,5 +595,8 @@ section.sobre h2{
 	color: #00ffba;
 	margin: 4vw 0 2vw 0;
 	text-align: center;
-}
+}section.area-treino div p{
+	text-align: center;
+}section.invite-ct button{
+	
 }
