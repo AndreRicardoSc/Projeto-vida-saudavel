@@ -72,6 +72,54 @@
                 </p>
             </div>
         </section>
+        <form class="roteiro" id="roteiroPerguntas" name="roteiroPerguntas">
+            <h2>Responda</h2>
+            <div>
+                <label for="restricao">
+                    Qual parte do corpo você necessita de aquecimento (sente dores) ?
+                </label>
+                <select class="tipo-aquecimento">
+                    <option value="nenhum">Nenhuma</option>
+                    <option value="pescoco">Pescoço</option>
+                    <option value="ombros">Ombros</option>
+                    <option value="bracos">Braços</option>
+                    <option value="maos">Mãos</option>
+                    <option value="pernas">Pernas</option>
+                    <option value="pes">Pés</option>
+                </select>
+            </div>
+            <div>
+                <label for="preferencia">
+                    O que você gostaria de ganhar com seu treinamento?
+                </label>
+                <select class="preferencia">
+                    <option value="forca">Ganho de força</option>
+                    <option value="resistencia">Ganho de resistencia</option>
+                    <option value="flexibilidade">Ganho de flexibilidade</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <label for="experiencia">
+                    Qual sua experiência física com o treinamento que selecionou?
+                </label>
+                <select class="experiencia">
+                    <option value="iniciante">Iniciante</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+            </div>
+
+            <button onclick="criarTreino(event)" type="button">Criar Treino</button>
+        </form>
+        <section class="area-treino"></section>
+        <div class="aquecimento">
+
+        </div>
+        <div class="treino">
+            <p>Seu treino será criado aqui...</p>
+        </div>
+        </section>
         <footer class="inicio">
             <i class="fa-solid fa-dumbbell"></i>
             <p>
