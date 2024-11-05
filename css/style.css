@@ -219,16 +219,29 @@ section.area-treino div h2{
 	text-align: center;
 	color: #00ffba;
 }
-section.area-treino div ol li{
-	margin: 1vw 0 1vw 0;
+section.area-treino div.aquecimento ol li{
+	margin: 2vw 0 2vw 0;
 	
 }
-section.area-treino div ol li span{
+section.area-treino div.aquecimento ol li span{
 	color: #00ffba;
 }
-section.area-treino div ol li a{
-	color: white;
+section.area-treino div.treino ol{
+	display: flex;
+	justify-content: center;
+}
+section.area-treino div.treino ol li{
+	border: solid white 1px;
+	border-radius: 10px;
+	padding: 2vw;
+	margin: 2vw 4vw 2vw 4vw;
+}
+section.area-treino div.treino ol li h3{
+	color: #00ffba;
 	font-weight: bold;
+}
+section.area-treino div.treino ol li p{
+	margin: 2vw 0 2vw 0;
 }
 /*=======================================================================
                            SOBRE-EXERCICIOS

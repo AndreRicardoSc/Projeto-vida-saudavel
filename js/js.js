@@ -122,35 +122,224 @@ function criarTreino(event) {
     let treino = document.querySelector('.treino');
     if (preferencia == "forca") {
         if (grau == "iniciante") {
-            treino.innerHTML = `<p>força, iniciante</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else if (grau == "intermediario") {
-            treino.innerHTML = `<p>força, intermediario</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else { 
-            treino.innerHTML = `<p>força, avançado</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>
+            `;
         }
     }
     else if (preferencia == "resistencia") {
         if (grau == "iniciante") {
-            treino.innerHTML = `<p>resistência, iniciante</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else if (grau == "intermediario") {
-            treino.innerHTML = `<p>resistência, intermediario</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else { 
-            treino.innerHTML = `<p>resistência, avançado</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
     }
     else if (preferencia == "flexibilidade") {
         if (grau == "iniciante") {
-            treino.innerHTML = `<p>flexibilidade, iniciante</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else if (grau == "intermediario") {
-            treino.innerHTML = `<p>flexibilidade, intermediario</p>`;
+            treino.innerHTML = `
+            <h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
         else { 
-            treino.innerHTML = `<p>flexibilidade, avançado</p>`;
+            treino.innerHTML = `<h2>AQUI ESTÁ! Seu treino</h2>
+                <ol>
+                    <li>
+                        <h3>1. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>2. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                </ol>
+                <ol>
+                    <li>
+                        <h3>3. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>
+                    <li>
+                        <h3>4. Exemplo</h3>
+                        <p>Este exemplo bla kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+                    </li>                
+                </ol>`;
         }
     }
 
