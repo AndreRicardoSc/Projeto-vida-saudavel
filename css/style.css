@@ -670,6 +670,7 @@ section.duvidas ul li{
 }section.sobre p{
 	margin: 2vw 0 2vw 0;
 	font-size: 1.5rem;
+	text-align: center;
 	
 }section.sobre p.Nossaequipe{
 	text-align: center;
@@ -680,7 +681,116 @@ section.sobre h2{
 	color: #00ffba;
 	margin: 4vw 0 2vw 0;
 	text-align: center;
+
+	/*==================================================================
+                          	TREINO
+==========================================================================*/
 }section.area-treino div p{
+	font-size: 1.3rem;
+}
+section.area-treino div h2 span{
+margin: 3vw 0 3vw 0;
+font-weight: bold;
+font-size: 1.8rem;
+text-align: center;
+color: #00ffba;
+}
+section.area-treino div.aquecimento ol li{
+margin: 3vw 0 3vw 0;
+border: solid white 1px;
+border-radius: 10px;
+padding: 2vw;
+}
+section.area-treino div.aquecimento ol li p span{
+color: #00ffba;
+font-size: 1.5rem;
+}section.area-treino div.treino{
 	text-align: center;
+}
+section.area-treino div.treino p{
+text-align: center;
+margin: 3.5vw 0 1.5vw 0;
+font-weight: bold;
+font-size: 1.2rem;
+}
+section.area-treino div.treino ol{
+ flex-direction: column;
+ 
+}section.area-treino div.treino ol.inverter{
+ flex-direction: column;
+}
+
+section.area-treino div.treino ol li{
+border: solid white 1px;
+border-radius: 10px;
+padding: 2vw;
+margin: 2vw 4vw 2vw 4vw;
+width: 86%;
+}
+section.area-treino div.treino ol li h3{
+color: #00ffba;
+font-weight: bold;
+font-size: 1.5rem;
+}
+section.area-treino div.treino ol li p{
+margin: 2vw 0 2vw 0;
+font-weight: normal;
+text-align: left;
+
+}form.roteiro{
+	margin: 0 3vw 0 3vw;
+	border-radius: 15px;
+	background: rgb(87, 87, 87);
+	padding: 2vw 4vw 2vw 4vw;
+	align-content: center;
+}
+form.roteiro h2 {
+	color: #00ffba;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+form.roteiro div{
+	margin: 2vw 5vw 2vw 5vw;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+form.roteiro select{
+	font-size: 18px;
+	border: none;
+	background: #00ffba;
+	border-radius: 10px;
+	margin: 8px;
+	padding: 10px;
+	text-align: center;
+	font-size: larger;
+}
+form.roteiro select:hover{
+	background-color: white;
+	font-size: 17px;
+}
+form.roteiro button {
+	font-size: 20px;
+	border: none;
+	background: #00ffba;
+	border-radius: 10px;
+	padding: 10px;
+}
+form.roteiro button:hover{
+	background-color: white;
+	font-size: 17px;
+}form.roteiro div label{
+	font-size: 20px;
+	margin: 5px;
+}section.video p{
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 5vw 0;
+	color: black;
+	background: #00ffba;
+    border-radius: 15px;
+    padding: 5vw;
 }
 }
