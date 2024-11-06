@@ -9,16 +9,16 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento para pescoço</h2>
                 <ol>
                     <li>
-                        <span>1. Flexão de pescoço:</span>  Incline a cabeça para frente até encostar o queixo no peito e mantenha a posição por 5 segundos. Levante lentamente a cabeça, incline-a para trás e segure por mais 5 segundos. Repita esse movimento 5 vezes.
+                        <p><span>1. Flexão de pescoço:</span>  Incline a cabeça para frente até encostar o queixo no peito e mantenha a posição por 5 segundos. Levante lentamente a cabeça, incline-a para trás e segure por mais 5 segundos. Repita esse movimento 5 vezes.</p>
                     </li>
                     <li>
-                        <span>2. Flexão lateral de pescoço:</span>  Incline a cabeça lateralmente o máximo que conseguir e mantenha a posição por 5 segundos. Repita o movimento para o lado oposto e segure por mais 5 segundos. Repita o movimento 5 vezes para cada lado.
+                        <p><span>2. Flexão lateral de pescoço:</span>  Incline a cabeça lateralmente o máximo que conseguir e mantenha a posição por 5 segundos. Repita o movimento para o lado oposto e segure por mais 5 segundos. Repita o movimento 5 vezes para cada lado.</p>
                     </li>
                     <li>
-                        <span>3. Alongamento com braços cruzados:</span>  Cruze o braço esquerdo sobre o peito e use a mão direita para mantê-lo na posição por 10 segundos. Repita o movimento com o braço direito, usando a mão esquerda, e segure por mais 10 segundos. Repita o movimento 5 vezes com cada braço.
+                        <p><span>3. Alongamento com braços cruzados:</span>  Cruze o braço esquerdo sobre o peito e use a mão direita para mantê-lo na posição por 10 segundos. Repita o movimento com o braço direito, usando a mão esquerda, e segure por mais 10 segundos. Repita o movimento 5 vezes com cada braço.</p>
                     </li>
                     <li>
-                        <span>4. Movimentos circulares com o pescoço:</span>  Sentado em uma cadeira, relaxe os ombros, mantenha as costas retas e faça movimentos circulares com a cabeça. Repita o movimento 5 vezes para cada lado.
+                        <p><span>4. Movimentos circulares com o pescoço:</span>  Sentado em uma cadeira, relaxe os ombros, mantenha as costas retas e faça movimentos circulares com a cabeça. Repita o movimento 5 vezes para cada lado.</p>
                     </li>
                 </ol>`;
     }
@@ -27,16 +27,16 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento para ombros</h2>
                 <ol>
                     <li>
-                        <span>1. Flexão:</span>  Coloque-se de pé, perpendicularmente a uma parede, com os apoios à largura dos ombros e um pé posicionado ligeiramente mais à frente do outro. Os braços ao nível do ombro, em extensão, coloque a palma da mão na parede, com o polegar para cima e incline o tronco para a frente. Mantenha o alongamento por 20 segundos. Mantenha os cotovelos trancados e a coluna direita. Quanto mais à frente estiver o pé dianteiro em relação à posição do alinhamento da mão na parede, maior é o alongamento.
+                        <p><span>1. Flexão:</span>  Coloque-se de pé, perpendicularmente a uma parede, com os apoios à largura dos ombros e um pé posicionado ligeiramente mais à frente do outro. Os braços ao nível do ombro, em extensão, coloque a palma da mão na parede, com o polegar para cima e incline o tronco para a frente. Mantenha o alongamento por 20 segundos. Mantenha os cotovelos trancados e a coluna direita. Quanto mais à frente estiver o pé dianteiro em relação à posição do alinhamento da mão na parede, maior é o alongamento.</p>
                     </li>
                     <li>
-                        <span>2. Extensão, Adução e Retração:</span> Posicione-se de pé alinhando o vértice do canto da parede com o ombro direito. Os pés devem estar à largura dos ombros e os dedos da mão a apontar para a frente e polegar para baixo. Cruze o braço esquerdo para a direita do corpo alinhando a mão com o ombro direito. Deve rodar o tronco para dentro até sentir o alongamento na parte posterior do ombro esquerdo. Deve permanecer com o cotovelo trancado. Mantenha o alongamento por 20 segundos. Realize o mesmo processo para o ombro direito.
+                        <p><span>2. Extensão, Adução e Retração:</span> Posicione-se de pé alinhando o vértice do canto da parede com o ombro direito. Os pés devem estar à largura dos ombros e os dedos da mão a apontar para a frente e polegar para baixo. Cruze o braço esquerdo para a direita do corpo alinhando a mão com o ombro direito. Deve rodar o tronco para dentro até sentir o alongamento na parte posterior do ombro esquerdo. Deve permanecer com o cotovelo trancado. Mantenha o alongamento por 20 segundos. Realize o mesmo processo para o ombro direito.</p>
                     </li>
                     <li>
-                        <span>3. Adução, Protração e Elevação:</span>  Na posição de pé, com os apoios à largura dos ombros, deve trazer o braço esquerdo pela frente do tronco, com a mão esquerda próxima do quadril direito. Com a mão direita segure o braço esquerdo na zona do cotovelo e procure puxar o cotovelo para baixo e para a direita do corpo. Não levante o ombro ou incline o tronco à frente. Se não for possível colocar a mão no quadril, tente aproximar o máximo que conseguir. Mantenha o alongamento por 20 segundos. Realize o mesmo processo para o braço oposto. 
+                        <p><span>3. Adução, Protração e Elevação:</span>  Na posição de pé, com os apoios à largura dos ombros, deve trazer o braço esquerdo pela frente do tronco, com a mão esquerda próxima do quadril direito. Com a mão direita segure o braço esquerdo na zona do cotovelo e procure puxar o cotovelo para baixo e para a direita do corpo. Não levante o ombro ou incline o tronco à frente. Se não for possível colocar a mão no quadril, tente aproximar o máximo que conseguir. Mantenha o alongamento por 20 segundos. Realize o mesmo processo para o braço oposto. </p>
                     </li>
                     <li>
-                        <span>4. Adução e Extensão:</span>  Na posição de agachamento de frente para um pilar (pode utilizar uma ombreira da porta), alinhe o ombro direito com o canto. Segure o canto mais afastado com a mão direita, ao nível do ombro direito. Ao manter o braço esticado e os pés firmemente apoiados, procure manter o glúteo próximo do chão. Um maior agachamento constitui um alongamento maior, no entanto deve evitar uma posição em que sinta dores nas pernas ou nos joelhos. Não incline o tronco para a frente da cintura. Para obter um maior alongamento rode o tronco para dentro. Mantenha o alongamento por 20 segundos. Realize o mesmo procedimento para o braço oposto.
+                        <p><span>4. Adução e Extensão:</span>  Na posição de agachamento de frente para um pilar (pode utilizar uma ombreira da porta), alinhe o ombro direito com o canto. Segure o canto mais afastado com a mão direita, ao nível do ombro direito. Ao manter o braço esticado e os pés firmemente apoiados, procure manter o glúteo próximo do chão. Um maior agachamento constitui um alongamento maior, no entanto deve evitar uma posição em que sinta dores nas pernas ou nos joelhos. Não incline o tronco para a frente da cintura. Para obter um maior alongamento rode o tronco para dentro. Mantenha o alongamento por 20 segundos. Realize o mesmo procedimento para o braço oposto.</p>
                     </li>                
                 </ol>
         `;
@@ -46,17 +46,17 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento para braços</h2>
                 <ol>
                     <li>
-                        <span>1. Alongamento para bíceps:</span> Em pé, com os pés separados em uma distância equivalente à largura dos ombros, dobre ligeiramente os joelhos e mantenha os dedos dos pés apontando para a frente. Erga os dois braços na altura dos ombros, mantendo os ombros no mesmo nível. Gire os pulsos até que as palmas das mãos estejam atrás do seu corpo, como na foto acima. Aí você deve sentir o alongamento. Porém, se não sentir, empurre os braços suavemente para trás, ligeiramente atrás de você, até sentir. Segure a posição por no mínimo 30 segundos, lembrando-se de respirar corretamente. 
+                        <p><span>1. Alongamento para bíceps:</span> Em pé, com os pés separados em uma distância equivalente à largura dos ombros, dobre ligeiramente os joelhos e mantenha os dedos dos pés apontando para a frente. Erga os dois braços na altura dos ombros, mantendo os ombros no mesmo nível. Gire os pulsos até que as palmas das mãos estejam atrás do seu corpo, como na foto acima. Aí você deve sentir o alongamento. Porém, se não sentir, empurre os braços suavemente para trás, ligeiramente atrás de você, até sentir. Segure a posição por no mínimo 30 segundos, lembrando-se de respirar corretamente. </p>
                     </li>
                     <li>
-                        <span>2. Alongamento para tríceps:</span> Fique em pé com os pés separados em uma distância equivalente à largura dos quadris, os dedos dos pés apontados para a frente e os joelhos ligeiramente dobrados. Leve o braço direito para cima, perto da orelha. Então, dobre o cotovelo, colocando a mão direita no ombro esquerdo e atrás das costas. Os dedos da mão direita devem apontar para baixo, tocando a parte de trás da escápula, como na imagem. Leve o braço esquerdo sobre a cabeça e segure levemente depois do cotovelo direito, como na imagem. Você pode aprofundar o alongamento ao puxar o braço direito com a mão esquerda. Porém, faça isso até o ponto de sentir o alongamento, não uma dor. Segure a posição por 30 segundos, inalando e exalando o ar. Após, troque a posição dos braços e repita o exercício.
+                        <p><span>2. Alongamento para tríceps:</span> Fique em pé com os pés separados em uma distância equivalente à largura dos quadris, os dedos dos pés apontados para a frente e os joelhos ligeiramente dobrados. Leve o braço direito para cima, perto da orelha. Então, dobre o cotovelo, colocando a mão direita no ombro esquerdo e atrás das costas. Os dedos da mão direita devem apontar para baixo, tocando a parte de trás da escápula, como na imagem. Leve o braço esquerdo sobre a cabeça e segure levemente depois do cotovelo direito, como na imagem. Você pode aprofundar o alongamento ao puxar o braço direito com a mão esquerda. Porém, faça isso até o ponto de sentir o alongamento, não uma dor. Segure a posição por 30 segundos, inalando e exalando o ar. Após, troque a posição dos braços e repita o exercício.</p>
 
                     </li>
                     <li>
-                        <span>3. Alongamento para os pulsos e os antebraços:</span> Estenda um braço na frente do corpo com a palma da mão voltada para cima. O próximo passo é dobrar o pulso para baixo, deixando a mão direcionada para o chão. Com a outra mão, flexione suavemente o pulso até sentir um alongamento de nível leve a moderado no antebraço. Segure a posição durante pelo menos 15 a 30 segundos. Troque a posição das mãos e repita o alongamento.
+                        <p><span>3. Alongamento para os pulsos e os antebraços:</span> Estenda um braço na frente do corpo com a palma da mão voltada para cima. O próximo passo é dobrar o pulso para baixo, deixando a mão direcionada para o chão. Com a outra mão, flexione suavemente o pulso até sentir um alongamento de nível leve a moderado no antebraço. Segure a posição durante pelo menos 15 a 30 segundos. Troque a posição das mãos e repita o alongamento.</p>
                     </li>
                     <li>
-                        <span>4. Alongamento para braços e ombros:</span> Fique em pé, com os joelhos ligeiramente dobrados e os pés separados em uma distância equivalente à largura dos ombros. O passo seguinte consiste em dobrar o cotovelo direito e colocar o braço sobre o peito como na foto. Coloque o braço esquerdo ligeiramente atrás do cotovelo para apoiar o outro braço durante o alongamento. Nesse momento, você certamente sentirá o alongamento no ombro e no braço direito. Segure a posição por 30 segundos. Troque a posição dos braços para alongar o outro lado.
+                        <p><span>4. Alongamento para braços e ombros:</span> Fique em pé, com os joelhos ligeiramente dobrados e os pés separados em uma distância equivalente à largura dos ombros. O passo seguinte consiste em dobrar o cotovelo direito e colocar o braço sobre o peito como na foto. Coloque o braço esquerdo ligeiramente atrás do cotovelo para apoiar o outro braço durante o alongamento. Nesse momento, você certamente sentirá o alongamento no ombro e no braço direito. Segure a posição por 30 segundos. Troque a posição dos braços para alongar o outro lado.</p>
                     </li>                
                 </ol>
         `;
@@ -66,13 +66,13 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento para mãos</h2>
                 <ol>
                     <li>
-                        <span>1. Flexão e extensão do punho:</span> Sentado ou em pé, dobre o punho para baixo com uma mão e puxe o dorso da mão em direção a si. Mantenha a posição por 30 segundos e repita 3 vezes. Depois, vire a mão para cima e puxe a ponta dos dedos em direção a si. 
+                        <p><span>1. Flexão e extensão do punho:</span> Sentado ou em pé, dobre o punho para baixo com uma mão e puxe o dorso da mão em direção a si. Mantenha a posição por 30 segundos e repita 3 vezes. Depois, vire a mão para cima e puxe a ponta dos dedos em direção a si.</p>
                     </li>
                     <li>
-                        <span>2. Alongamento de dedo:</span> Massageie suavemente cada dedo da base até a ponta. Segure a ponta de cada dedo e leve-o em direção ao peito. Mantenha a posição por 10 segundos e repita com a outra mão.
+                        <p><span>2. Alongamento de dedo:</span> Massageie suavemente cada dedo da base até a ponta. Segure a ponta de cada dedo e leve-o em direção ao peito. Mantenha a posição por 10 segundos e repita com a outra mão.</p>
                     </li>
                     <li>
-                        <span>3. Alongamento do antebraço:</span> Apoie-se em uma mesa, balcão ou outra superfície. Coloque as mãos viradas para baixo e incline o tronco para trás. Puxe o peso do corpo para os calcanhares e segure a posição por 30 segundos.
+                        <p><span>3. Alongamento do antebraço:</span> Apoie-se em uma mesa, balcão ou outra superfície. Coloque as mãos viradas para baixo e incline o tronco para trás. Puxe o peso do corpo para os calcanhares e segure a posição por 30 segundos.</p>
                     </li>                
                 </ol>
         `;
@@ -82,16 +82,16 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento para pernas</h2>
                 <ol>
                     <li>
-                        <span>1. Polichinelos:</span> Um excelente exercício para elevar a frequência cardíaca e aquecer as pernas. Fique de pé com os pés juntos e braços ao lado do corpo. Dê um salto para abrir as pernas enquanto eleva os braços acima da cabeça, e volte para a posição inicial.
+                        <p><span>1. Polichinelos:</span> Um excelente exercício para elevar a frequência cardíaca e aquecer as pernas. Fique de pé com os pés juntos e braços ao lado do corpo. Dê um salto para abrir as pernas enquanto eleva os braços acima da cabeça, e volte para a posição inicial.</p>
                     </li>
                     <li>
-                        <span>2. Elevação de Joelhos (High Knees):</span> Ajuda a ativar os músculos das pernas e trabalha o core. Fique em pé e corra no lugar, levantando um joelho de cada vez o mais alto possível. Lembre-se de manter o ritmo e o controle do movimento.
+                        <p><span>2. Elevação de Joelhos (High Knees):</span> Ajuda a ativar os músculos das pernas e trabalha o core. Fique em pé e corra no lugar, levantando um joelho de cada vez o mais alto possível. Lembre-se de manter o ritmo e o controle do movimento.</p>
                     </li>
                     <li>
-                        <span>3. Aquecimento com Agachamento:</span> Para ativar os quadríceps, glúteos e panturrilhas. Realize agachamentos curtos, sem peso, concentrando-se na forma e no controle. Desça até a metade e volte para a posição inicial, mantendo os pés afastados na largura dos ombros.
+                        <p><span>3. Aquecimento com Agachamento:</span> Para ativar os quadríceps, glúteos e panturrilhas. Realize agachamentos curtos, sem peso, concentrando-se na forma e no controle. Desça até a metade e volte para a posição inicial, mantendo os pés afastados na largura dos ombros.</p>
                     </li>
                     <li>
-                        <span>4. Passadas Alternadas (Lunges Dinâmicos):</span> Prepara bem os músculos da parte inferior e melhora a mobilidade. Dê um passo à frente com uma perna, abaixando o joelho traseiro em direção ao chão, e volte à posição inicial. Alterne entre as pernas a cada repetição.
+                        <p><span>4. Passadas Alternadas (Lunges Dinâmicos):</span> Prepara bem os músculos da parte inferior e melhora a mobilidade. Dê um passo à frente com uma perna, abaixando o joelho traseiro em direção ao chão, e volte à posição inicial. Alterne entre as pernas a cada repetição.</p>
                     </li>                
                 </ol>
         `;
@@ -101,16 +101,16 @@ function criarTreino(event) {
         <h2>AQUI ESTÁ! Seu aquecimento</h2>
                 <ol>
                     <li>
-                        <span>1. Alongamento dos Dedos:</span> Sentado, coloque um dos pés apoiado na coxa oposta. Use as mãos para puxar suavemente cada dedo, alongando-os para trás e para frente. Faça durante 20 a 30 segundos para cada pé. Aumenta a flexibilidade dos dedos e reduz a rigidez.
+                        <p><span>1. Alongamento dos Dedos:</span> Sentado, coloque um dos pés apoiado na coxa oposta. Use as mãos para puxar suavemente cada dedo, alongando-os para trás e para frente. Faça durante 20 a 30 segundos para cada pé. Aumenta a flexibilidade dos dedos e reduz a rigidez.</p>
                     </li>
                     <li>
-                        <span>2. Flexão e Extensão dos Dedos:</span> Sentado ou em pé, estenda os dedos dos pés, abrindo-os o máximo possível, e depois feche-os apertando como se estivesse tentando "agarrar" o chão. Repita de 10 a 15 vezes. Melhora o controle dos músculos dos pés e a mobilidade dos dedos.
+                        <p><span>2. Flexão e Extensão dos Dedos:</span> Sentado ou em pé, estenda os dedos dos pés, abrindo-os o máximo possível, e depois feche-os apertando como se estivesse tentando "agarrar" o chão. Repita de 10 a 15 vezes. Melhora o controle dos músculos dos pés e a mobilidade dos dedos.</p>
                     </li>
                     <li>
-                        <span>3. Rolamento com Bola de Tênis:</span> Sente-se e coloque uma bola de tênis (ou outra bola pequena) sob o arco do pé. Role a bola para frente e para trás, massageando a planta do pé. Repita por 1 a 2 minutos em cada pé. Libera a tensão na planta do pé e ajuda na circulação.
+                        <p><span>3. Rolamento com Bola de Tênis:</span> Sente-se e coloque uma bola de tênis (ou outra bola pequena) sob o arco do pé. Role a bola para frente e para trás, massageando a planta do pé. Repita por 1 a 2 minutos em cada pé. Libera a tensão na planta do pé e ajuda na circulação.</p>
                     </li>
                     <li>
-                        <span>4. Elevação de Calcanhar:</span> Fique em pé com os pés paralelos e eleve os calcanhares, ficando na ponta dos pés. Depois, abaixe devagar. Repita de15 a 20 vezes. Fortalece a musculatura da panturrilha e o arco dos pés, aumentando a estabilidade e o equilíbrio.
+                        <p><span>4. Elevação de Calcanhar:</span> Fique em pé com os pés paralelos e eleve os calcanhares, ficando na ponta dos pés. Depois, abaixe devagar. Repita de15 a 20 vezes. Fortalece a musculatura da panturrilha e o arco dos pés, aumentando a estabilidade e o equilíbrio.</p>
                     </li>                
                 </ol>
         `;
@@ -179,6 +179,8 @@ function criarTreino(event) {
                         <h3>4. Desenvolvimento com barra: 4x6</h3>
                         <p>O desenvolvimento com barra é um ótimo exercício para fortalecer os ombros e os tríceps. Comece sentado ou em pé, segurando a barra com as mãos afastadas na largura dos ombros, à altura do peito. Com o core contraído e as costas retas, inspire e empurre a barra para cima até estender completamente os braços, mantendo os cotovelos levemente flexionados no topo. Ao descer, controle o movimento, trazendo a barra de volta à altura do peito. Mantenha a postura ereta durante todo o exercício para evitar sobrecarregar a lombar e garantir uma execução segura.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Remada com barra: 4x6</h3>
                         <p>A remada com barra é um exercício eficaz para fortalecer as costas, especialmente o latíssimo dorsal, trapézio e os músculos dos ombros e bíceps. Para realizá-lo, segure a barra com as mãos na largura dos ombros, inclinado o tronco ligeiramente à frente com os joelhos flexionados e as costas retas. Mantendo o abdômen contraído, puxe a barra em direção ao abdômen, levando os cotovelos para trás e sentindo a contração nas costas. Em seguida, desça a barra de forma controlada até que os braços fiquem estendidos. Mantenha a postura e o controle para evitar sobrecarga na lombar.</p>
@@ -213,6 +215,8 @@ function criarTreino(event) {
                         <h3>4. Remada T: 5x4</h3>
                         <p>A remada T é um exercício eficaz para fortalecer as costas, especialmente os músculos da parte superior, como o trapézio, romboides e lats. Para realizá-la, posicione-se em frente a uma barra com um peso fixo ou uma barra T. Segure as alças com as duas mãos, mantendo os pés afastados na largura dos ombros e os joelhos ligeiramente flexionados. Com o tronco inclinado para frente a partir dos quadris, mantenha as costas retas e o core contraído. Puxe as alças em direção ao peito, ativando as escápulas, e mantenha os cotovelos próximos ao corpo. Em seguida, controle a descida das alças de volta à posição inicial. Mantenha sempre a postura correta para evitar sobrecarregar a lombar.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Desenvolvimento com barra: 5x5</h3>
                         <p>O desenvolvimento com barra é um exercício excelente para fortalecer os ombros, tríceps e parte superior das costas. Para realizá-lo, posicione-se em pé, com os pés na largura dos ombros e a barra na frente do seu corpo, segurando-a com as mãos ligeiramente mais afastadas que a largura dos ombros. Com o core ativado e a postura ereta, inspire e empurre a barra para cima, estendendo os braços até que fiquem completamente retos. No topo, evite arquear a lombar e mantenha os cotovelos ligeiramente flexionados. Abaixe a barra controladamente até a posição inicial, sempre mantendo a postura estável durante todo o movimento.</p>
@@ -250,6 +254,8 @@ function criarTreino(event) {
                         <h3>4. Remada no cabo: 5x14-20</h3>
                         <p>A remada no cabo é um exercício que trabalha as costas, especialmente os músculos do latíssimo do dorso e os romboides. Para executá-la, sente-se em frente a uma máquina de cabo, com os pés apoiados na plataforma e as pernas ligeiramente flexionadas. Segure o cabo com as duas mãos, mantendo os braços estendidos à frente e a coluna reta. Puxe o cabo em direção ao tronco, mantendo os cotovelos próximos ao corpo, e contraia as costas ao final do movimento. Em seguida, estenda os braços de forma controlada, voltando à posição inicial. Mantenha a postura estável durante todo o exercício para evitar sobrecarregar a lombar e garantir a eficácia do movimento.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Elevação lateral com halteres: 4x14-20</h3>
                         <p>A elevação lateral com halteres é um exercício focado no fortalecimento dos ombros, especialmente no deltoide lateral. Para realizá-lo, fique em pé com os pés na largura dos ombros, segurando um halter em cada mão, com os braços ao lado do corpo. Mantenha o core contraído e as costas retas. Inspire e levante os halteres lateralmente até que os braços fiquem paralelos ao chão, mantendo uma leve flexão nos cotovelos e evitando que os ombros se elevem. Expire enquanto controla o movimento de volta à posição inicial, sem deixar os halteres caírem rapidamente. Execute de forma controlada para maximizar a ativação muscular e evitar lesões.</p>
@@ -288,6 +294,8 @@ function criarTreino(event) {
                         <h3>4. Burpees: 4x14-26</h3>
                         <p>O burpee é um exercício de alta intensidade que trabalha todo o corpo, envolvendo força, resistência e coordenação. Para realizá-lo, comece em pé com os pés na largura dos ombros. Agache-se e coloque as mãos no chão, saltando para a posição de prancha (como uma flexão). Faça uma flexão de peito (opcional, se necessário para aumentar a intensidade), depois empurre o chão e salte de volta para a posição de agachamento. Por fim, dê um salto explosivo para cima, estendendo o corpo completamente. Ao retornar ao solo, inicie o próximo movimento de forma contínua. O burpee é eficaz para aumentar a resistência cardiovascular e muscular.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Pullover com halteres: 2x30</h3>
                         <p>O pullover com halteres é um excelente exercício para trabalhar o peitoral, tríceps e músculos das costas. Para realizá-lo, deite-se em um banco reto ou perpendicular, com os pés firmes no chão. Segure um haltere com as duas mãos, posicionando-o acima do peito com os braços estendidos. Inspire e, com os cotovelos levemente flexionados, abaixe o haltere lentamente para trás, sentindo um alongamento no peitoral e nas costas. Quando o haltere estiver quase no nível da cabeça, pare e, então, puxe o haltere de volta à posição inicial, expirando. Mantenha sempre o controle do movimento, evitando a sobrecarga nos ombros e nas costas.</p>
@@ -326,6 +334,8 @@ function criarTreino(event) {
                         <h3>4. Burpees com flexão: 3x12-16</h3>
                         <p>O burpee com flexão é um exercício de corpo inteiro que combina cardio, força e resistência. Para executá-lo, comece em pé com os pés na largura dos ombros. Agache-se e coloque as mãos no chão, posicionando-se em uma posição de prancha. Faça uma flexão, descendo o peito até o chão e, em seguida, empurre o corpo de volta para cima. Depois da flexão, traga os pés rapidamente em direção às mãos e salte para cima, estendendo os braços acima da cabeça. Ao cair, suavemente, volte para a posição inicial e repita o movimento. Esse exercício trabalha o peito, ombros, core, pernas e aumenta a frequência cardíaca, sendo excelente para o condicionamento físico geral.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Levantamento turco com haltere: 3x20</h3>
                         <p>O levantamento turco com haltere é um exercício completo que trabalha o core, ombros, pernas e estabilidade geral. Para realizá-lo, comece deitado no chão com uma perna dobrada e a outra estendida. Segure um haltere com a mão do lado do braço estendido, mantendo-o acima do ombro. Com a mão livre, apoie-se no chão para estabilizar o corpo. Levante o tronco enquanto empurra a perna dobrada para cima, mantendo o haltere erguido. Use os braços, as pernas e o core para levantar o corpo de forma controlada, passando para uma posição de agachamento e, em seguida, de pé. Para retornar, realize o movimento de forma inversa, abaixando o tronco, apoiando-se no chão e voltando à posição inicial. A chave é a estabilidade e a coordenação entre os membros, controlando sempre o movimento.</p>
@@ -366,6 +376,8 @@ function criarTreino(event) {
                         <h3>4. Cadeira extensora: 3x10-12</h3>
                         <p>A cadeira extensora é um exercício isolado que trabalha principalmente os músculos do quadríceps. Para realizá-lo, sente-se na cadeira com as costas apoiadas e os pés posicionados sob os rolos da máquina, com os joelhos alinhados com o eixo da máquina. Ajuste a carga conforme sua capacidade. Segure as alças laterais para estabilizar o corpo e, ao inspirar, estenda as pernas até que fiquem quase retas, contraindo os quadríceps. Mantenha os joelhos alinhados e evite trancar completamente as articulações. Após a extensão, desça as pernas de forma controlada até a posição inicial, expirando ao retornar. A execução controlada é fundamental para trabalhar bem os músculos e evitar lesões.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Flexão de braço: 3x10-15</h3>
                         <p>A flexão de braço é um exercício simples, mas eficaz, para fortalecer o peitoral, ombros e tríceps. Comece deitado de barriga para baixo, com as mãos posicionadas um pouco mais largas que a largura dos ombros, e os pés apoiados no chão, com o corpo reto. Inspire enquanto abaixa o corpo, flexionando os cotovelos e mantendo-os próximos ao corpo ou ligeiramente abertos, até que o peito quase toque o chão. Em seguida, empurre o chão com as mãos, estendendo os cotovelos e levantando o corpo de volta à posição inicial, expirando no movimento de subida. Mantenha o core contraído e o corpo reto durante todo o exercício para evitar sobrecarga na lombar.</p>
@@ -400,6 +412,8 @@ function criarTreino(event) {
                         <h3>4. Leg press: 4x10-12</h3>
                         <p>O leg press é um exercício eficaz para trabalhar as pernas, focando nos quadríceps, glúteos e isquiotibiais. Para executá-lo, sente-se na máquina com os pés na plataforma, alinhados com os ombros e as costas contra o encosto. Coloque as mãos nas alças para estabilidade e comece com os joelhos dobrados a 90 graus. Empurre a plataforma para cima, estendendo as pernas, mas sem travar os joelhos no topo. Inspire ao descer a plataforma, controlando o movimento até que os joelhos estejam a cerca de 90 graus novamente. Mantenha a postura correta durante todo o exercício, evitando curvar as costas ou forçar os joelhos para dentro.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Bíceps curl: 3x12</h3>
                         <p>O bíceps curl é um exercício eficaz para fortalecer os músculos do bíceps. Para realizá-lo, segure um par de halteres com as palmas das mãos voltadas para frente e os braços estendidos ao longo do corpo, com os cotovelos próximos ao tronco. Inspire e, mantendo os cotovelos fixos, flexione os braços, levantando os halteres em direção aos ombros. Evite balançar o corpo ou mover os cotovelos. No topo do movimento, faça uma leve contração no bíceps e, em seguida, desça os halteres de forma controlada até a posição inicial, expirando. O controle durante o movimento é essencial para maximizar a ativação muscular e evitar lesões.</p>
@@ -434,6 +448,8 @@ function criarTreino(event) {
                         <h3>4. Elevação lateral + Desenvolvimento de ombro: 4x12 cada</h3>
                         <p>A combinação de elevação lateral e desenvolvimento de ombro fortalece os músculos dos ombros. Para a elevação lateral, segure um par de halteres ao lado do corpo e levante-os lateralmente até a altura dos ombros, com os braços ligeiramente flexionados, e depois retorne à posição inicial. Em seguida, no desenvolvimento de ombro, leve os halteres à altura dos ombros e empurre-os para cima até estender completamente os braços. Mantenha a postura ereta e evite arquear as costas durante os movimentos para garantir a segurança e eficácia do exercício.</p>
                     </li>
+                </ol>
+                <ol>
                     <li>
                         <h3>5. Panturrilha no leg press: 5x15-20</h3>
                         <p>O exercício de panturrilha no leg press é eficaz para fortalecer os músculos da panturrilha (gastrocnêmio e sóleo). Para realizá-lo, sente-se na máquina de leg press com os pés posicionados na plataforma, na largura dos ombros e com a parte da frente dos pés na borda da plataforma, enquanto os calcanhares ficam pendurados. Comece com as pernas estendidas, mas não completamente travadas. Inspire e, em seguida, levante os calcanhares, usando a força das panturrilhas para empurrar a plataforma para cima, elevando os calcanhares o máximo possível. Mantenha a posição por um segundo no topo e, em seguida, desça lentamente os calcanhares até a posição inicial, controlando o movimento. Esse exercício pode ser feito com diferentes variações de carga e número de repetições para estimular o crescimento muscular e a força.</p>

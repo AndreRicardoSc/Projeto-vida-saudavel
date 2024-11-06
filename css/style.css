@@ -226,16 +226,17 @@ section.area-treino div h2 span{
 	text-align: center;
 	color: #00ffba;
 }
+
+section.area-treino div.aquecimento ol li{
+	margin: 2vw 0 2vw 0;
+}
+section.area-treino div.aquecimento ol li p span{
+	color: #00ffba;
+}
 section.area-treino div.treino p{
 	text-align: center;
 	margin: 3.5vw 0 1.5vw 0;
 	font-weight: bold;
-}
-section.area-treino div.aquecimento ol li{
-	margin: 2vw 0 2vw 0;
-}
-section.area-treino div.aquecimento ol li span{
-	color: #00ffba;
 }
 section.area-treino div.treino ol{
 	display: flex;
