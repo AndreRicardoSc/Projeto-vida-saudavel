@@ -6,7 +6,7 @@ function criarTreino(event) {
     let aquecimento = document.querySelector('.aquecimento');
     if (tipoAquecimento == "pescoco") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento para pescoço</h2>
+        <h2>Aqui está seu aquecimento para pescoço</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Flexão de pescoço:</span>  Incline a cabeça para frente até encostar o queixo no peito e mantenha a posição por 5 segundos. Levante lentamente a cabeça, incline-a para trás e segure por mais 5 segundos. Repita esse movimento 5 vezes.</p>
@@ -24,7 +24,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "ombros") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento para ombros</h2>
+        <<h2>Aqui está seu aquecimento para ombros</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Flexão:</span>  Coloque-se de pé, perpendicularmente a uma parede, com os apoios à largura dos ombros e um pé posicionado ligeiramente mais à frente do outro. Os braços ao nível do ombro, em extensão, coloque a palma da mão na parede, com o polegar para cima e incline o tronco para a frente. Mantenha o alongamento por 20 segundos. Mantenha os cotovelos trancados e a coluna direita. Quanto mais à frente estiver o pé dianteiro em relação à posição do alinhamento da mão na parede, maior é o alongamento.</p>
@@ -43,7 +43,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "bracos") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento para braços</h2>
+                <h2>Aqui está seu aquecimento para braços</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Alongamento para bíceps:</span> Em pé, com os pés separados em uma distância equivalente à largura dos ombros, dobre ligeiramente os joelhos e mantenha os dedos dos pés apontando para a frente. Erga os dois braços na altura dos ombros, mantendo os ombros no mesmo nível. Gire os pulsos até que as palmas das mãos estejam atrás do seu corpo, como na foto acima. Aí você deve sentir o alongamento. Porém, se não sentir, empurre os braços suavemente para trás, ligeiramente atrás de você, até sentir. Segure a posição por no mínimo 30 segundos, lembrando-se de respirar corretamente. </p>
@@ -63,7 +63,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "maos") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento para mãos</h2>
+        <h2>Aqui está seu aquecimento para mãos</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Flexão e extensão do punho:</span> Sentado ou em pé, dobre o punho para baixo com uma mão e puxe o dorso da mão em direção a si. Mantenha a posição por 30 segundos e repita 3 vezes. Depois, vire a mão para cima e puxe a ponta dos dedos em direção a si.</p>
@@ -79,7 +79,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "pernas") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento para pernas</h2>
+        <h2>Aqui está seu aquecimento para pernas</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Polichinelos:</span> Um excelente exercício para elevar a frequência cardíaca e aquecer as pernas. Fique de pé com os pés juntos e braços ao lado do corpo. Dê um salto para abrir as pernas enquanto eleva os braços acima da cabeça, e volte para a posição inicial.</p>
@@ -98,7 +98,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "pes") {
         aquecimento.innerHTML = `
-        <h2>AQUI ESTÁ! Seu aquecimento</h2>
+        <h2>Aqui está seu aquecimento pés</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Alongamento dos Dedos:</span> Sentado, coloque um dos pés apoiado na coxa oposta. Use as mãos para puxar suavemente cada dedo, alongando-os para trás e para frente. Faça durante 20 a 30 segundos para cada pé. Aumenta a flexibilidade dos dedos e reduz a rigidez.</p>
@@ -123,7 +123,7 @@ function criarTreino(event) {
     if (preferencia == "forca") {
         if (grau == "iniciante") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 3 vezes por semana
             </p>
@@ -153,7 +153,7 @@ function criarTreino(event) {
         }
         else if (grau == "intermediario") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 4 vezes por semana
             </p>
@@ -189,7 +189,7 @@ function criarTreino(event) {
         }
         else { 
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 5 vezes por semana
             </p>
@@ -228,7 +228,7 @@ function criarTreino(event) {
     else if (preferencia == "resistencia") {
         if (grau == "iniciante") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 3 vezes por semana
             </p>
@@ -261,14 +261,14 @@ function criarTreino(event) {
                         <p>A elevação lateral com halteres é um exercício focado no fortalecimento dos ombros, especialmente no deltoide lateral. Para realizá-lo, fique em pé com os pés na largura dos ombros, segurando um halter em cada mão, com os braços ao lado do corpo. Mantenha o core contraído e as costas retas. Inspire e levante os halteres lateralmente até que os braços fiquem paralelos ao chão, mantendo uma leve flexão nos cotovelos e evitando que os ombros se elevem. Expire enquanto controla o movimento de volta à posição inicial, sem deixar os halteres caírem rapidamente. Execute de forma controlada para maximizar a ativação muscular e evitar lesões.</p>
                     </li>
                     <li>
-                        <h3>5. Prancha abdominal: 3x20-30 segundos</h3>
+                        <h3>6. Prancha abdominal: 3x20-30 segundos</h3>
                         <p>A prancha abdominal é um exercício isométrico que fortalece o core, trabalhando músculos do abdômen, costas e ombros. Para executá-la, deite-se de barriga para baixo e apoie os antebraços no chão, com os cotovelos alinhados com os ombros. Levante o corpo, mantendo uma linha reta dos calcanhares à cabeça, sem deixar o quadril cair ou subir demais. Contraia o abdômen e mantenha a postura firme, respirando normalmente, sem permitir que o corpo balance. Tente manter a posição pelo maior tempo possível, sempre focando em manter a estabilidade e evitar a sobrecarga na região lombar.</p>
                     </li>               
                 </ol>`;
         }
         else if (grau == "intermediario") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência:  3-4 vezes por semana
             </p>
@@ -308,7 +308,7 @@ function criarTreino(event) {
         }
         else { 
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 5 vezes por semana
             </p>
@@ -350,7 +350,7 @@ function criarTreino(event) {
     else if (preferencia == "hipertrofia") {
         if (grau == "iniciante") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 3 vezes por semana
             </p>
@@ -386,7 +386,7 @@ function criarTreino(event) {
         }
         else if (grau == "intermediario") {
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 4 vezes por semana
             </p>
@@ -422,7 +422,7 @@ function criarTreino(event) {
         }
         else { 
             treino.innerHTML = `
-            <h2><span>AQUI ESTÁ! Seu treino</span></h2>
+            <h2><span>Aqui está seu treino</span></h2>
             <p>
                 Frequência: 5-6 vezes por semana
             </p>
