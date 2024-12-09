@@ -4,67 +4,158 @@
 */
 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: 100%;
-   font: inherit;
-   vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-   display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
+
 body {
-   line-height: 1;
+	line-height: 1;
 }
-ol, ul {
-   list-style: none;
+
+ol,
+ul {
+	list-style: none;
 }
-blockquote, q {
-   quotes: none;
+
+blockquote,
+q {
+	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-   content: '';
-   content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
 }
+
 table {
-   border-collapse: collapse;
-   border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
+
 /*========================================================================
                            GERAL
 ==========================================================================*/
 html {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: calc(10px + 1vw);
-   color: white;
-   background: #323232;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: calc(10px + 1vw);
+	color: white;
+	background: #323232;
 }
+
 a {
-   color: black;
-   text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-a.atual{
+
+a.atual {
 	color: white;
 	font-weight: bold;
 }
-section{
+
+section {
 	padding: 0 10vw 0 10vw;
 }
 
@@ -76,54 +167,64 @@ header img {
 	height: 100%;
 	border-bottom: solid 2px white;
 }
-header img.logo{
+
+header img.logo {
 	border-bottom: none;
-	width: 4rem; 
+	width: 4rem;
 	animation: logo-animation 1s;
 }
-@keyframes logo-animation{
-	0%{
+
+@keyframes logo-animation {
+	0% {
 		transform: rotate(0deg);
 	}
-	50%{
+
+	50% {
 		transform: rotate(180deg);
 		width: 5rem;
 	}
-	100%{
+
+	100% {
 		transform: rotate(360deg);
 		width: 4rem;
 	}
 }
-header nav ul{
-    display: flex;
-    justify-content: space-evenly;
+
+header nav ul {
+	display: flex;
+	justify-content: space-evenly;
 	align-items: center;
-    background-color: #00ffba;
+	background-color: #00ffba;
 }
-header nav ul li{
-    margin: 3vw 0 3vw 0;
+
+header nav ul li {
+	margin: 3vw 0 3vw 0;
 	text-align: center;
 }
-header nav ul li a{
+
+header nav ul li a {
 	color: black;
 	font-size: 25px;
 }
-header nav ul li p{
+
+header nav ul li p {
 	color: black;
 	font-size: 15px;
 }
-section.introducao h1{
+
+section.introducao h1 {
 	font-weight: bold;
 	text-align: center;
 	margin: 5vw;
-    font-size: 1.8rem;
+	font-size: 1.8rem;
 }
+
 section.introducao ul {
 	display: flex;
 	justify-content: space-between;
 	background: #00ffba;
-    border-radius: 15px;
-    padding: 2vw;
+	border-radius: 15px;
+	padding: 2vw;
 }
 
 section.introducao ul li {
@@ -133,35 +234,26 @@ section.introducao ul li {
 	padding: 2vw;
 	border-radius: 15px;
 }
-section.direction{
-	text-align: center;
-}
-section.direction nav button{
-	margin: 3vw 0 0 0;
-	font-size: 1rem;
-	width: 10rem;
-	height: 3rem;
-	background: #00ffba;
-	border-radius: 15px;
-	border: none;
-}
 /*=======================================================================
                            CRIAR-TREINO-OBJETIVOS
 ==========================================================================*/
-section.invite-ct h2{
+section.invite-ct h2 {
 	text-align: center;
 	font-weight: bold;
 	color: #00ffba;
 	margin: 0 0 2vw 0;
 }
-section.invite-ct div.nosso{
+
+section.invite-ct div.nosso {
 	display: flex;
 	margin: 0 0 3vw 0;
 }
-section.invite-ct div p{
+
+section.invite-ct div p {
 	margin: 2vw 3vw 2vw 0;
 }
-section.invite-ct div.aviso{
+
+section.invite-ct div.aviso {
 	background: #00ffba;
 	border-radius: 15px;
 	color: black;
@@ -169,58 +261,72 @@ section.invite-ct div.aviso{
 	text-align: center;
 	margin: 4vw 0 4vw 0;
 }
-section.invite-ct div.aviso h1{
+
+section.invite-ct div.aviso h1 {
 	text-align: center;
 	font-weight: bold;
 	margin: 2vw;
 }
+
 /*=======================================================================
                            CRIA-TREINO-CRIAÇÃO
 ==========================================================================*/
-form.roteiro{
+form.roteiro {
 	margin: 0 3vw 0 3vw;
 	border-radius: 15px;
 	background: rgb(87, 87, 87);
 	padding: 2vw 4vw 2vw 4vw;
 }
+
 form.roteiro h2 {
 	color: #00ffba;
 	text-align: center;
 	font-weight: bold;
 }
-form.roteiro div{
+
+form.roteiro div {
 	margin: 2vw 3vw 2vw 5vw;
 }
-form.roteiro select{
-	font-size: 18px;
+
+form.roteiro select {
+	font-size: 20px;
 	border: none;
 	background: #00ffba;
 	border-radius: 5px;
+	transition: 0.5s;
+	border: 1px solid #00ffba;
 }
-form.roteiro select:hover{
-	background-color: white;
-	font-size: 17px;
+
+form.roteiro select:hover {
+	background-color: rgb(87, 87, 87);
+	color: #00ffba;
 }
+
 form.roteiro button {
-	font-size: 18px;
+	font-size: 20px;
 	border: none;
 	background: #00ffba;
 	border-radius: 5px;
+	transition: 0.5s;
+	border: 1px solid #00ffba;
 }
-form.roteiro button:hover{
-	background-color: white;
-	font-size: 17px;
+
+form.roteiro button:hover {
+	background-color: rgb(87, 87, 87);
+	color: #00ffba;
 }
+
 /*=======================================================================
                            CRIA-TREINO-TREINO
 ==========================================================================*/
-section.area-treino div h2{
+section.area-treino div h2 {
 	margin: 2vw 0 2vw 0;
 	font-weight: bold;
 	text-align: center;
 	color: #00ffba;
 }
-section.area-treino div h2 span{
+
+section.area-treino div h2 span {
 	margin: 2vw 0 2vw 0;
 	font-weight: bold;
 	font-size: 1.8rem;
@@ -228,45 +334,53 @@ section.area-treino div h2 span{
 	color: #00ffba;
 }
 
-section.area-treino div.aquecimento ol li{
+section.area-treino div.aquecimento ol li {
 	margin: 2vw 0 2vw 0;
 }
-section.area-treino div.aquecimento ol li p span{
+
+section.area-treino div.aquecimento ol li p span {
 	color: #00ffba;
 }
-section.area-treino div.treino p{
+
+section.area-treino div.treino p {
 	text-align: center;
 	margin: 3.5vw 0 1.5vw 0;
 	font-weight: bold;
 }
-section.area-treino div.treino ol{
+
+section.area-treino div.treino ol {
 	display: flex;
 	justify-content: center;
 }
-section.area-treino div.treino ol li{
+
+section.area-treino div.treino ol li {
 	border: solid white 1px;
 	border-radius: 10px;
 	padding: 2vw;
 	margin: 2vw 4vw 2vw 4vw;
 	width: 30vw;
 }
-section.area-treino div.treino ol li h3{
+
+section.area-treino div.treino ol li h3 {
 	color: #00ffba;
 	font-weight: bold;
 }
-section.area-treino div.treino ol li p{
+
+section.area-treino div.treino ol li p {
 	margin: 2vw 0 2vw 0;
 	font-weight: normal;
 	text-align: left;
-	
+
 }
+
 /*=======================================================================
                            SOBRE-EXERCICIOS
 ==========================================================================*/
-section.geral-exercicios{
+section.geral-exercicios {
 	margin: 4vw 3vw 4vw 3vw;
 }
-section.geral-exercicios p{
+
+section.geral-exercicios p {
 	margin: 1vw 0 1vw 0;
 	color: black;
 	text-align: justify;
@@ -275,10 +389,12 @@ section.geral-exercicios p{
 	border-radius: 20px;
 	padding: 30px;
 }
-section.informativo{
+
+section.informativo {
 	margin: 4vw 0 0 0;
 }
-section.informativo ul li{
+
+section.informativo ul li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -286,7 +402,8 @@ section.informativo ul li{
 	border-bottom: 1px solid gray;
 	padding: 0 0 3vw 0;
 }
-section.informativo ul li.no-border{
+
+section.informativo ul li.no-border {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -295,238 +412,281 @@ section.informativo ul li.no-border{
 	padding: 0 0 3vw 0;
 }
 
-section.informativo ul li div{
+section.informativo ul li div {
 	margin: 0 4vw 0 0;
 }
-section.informativo ul li div img{
+
+section.informativo ul li div img {
 	width: 500px;
 	height: 330px;
 	border: solid;
 	border-radius: 50px;
 	border-color: #00ffba;
-	
+
 }
-section.informativo ul li h2{
+
+section.informativo ul li h2 {
 	color: #00ffba;
 	font-weight: bold;
 	text-align: center;
 	margin: 1vw 0 2vw 0;
 }
+
 /*=======================================================================
                            ALIMENTAÇÃO-CONCEITOS-DIETA
 ==========================================================================*/
-section.conceitos-dieta{
+section.conceitos-dieta {
 	margin: 4vw 3vw 4vw 3vw;
 	border-bottom: solid 2px white;
 }
-section.conceitos-dieta h1{
+
+section.conceitos-dieta h1 {
 	margin: 4vw 0 4vw 0;
 	color: #00ffba;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 }
-section.conceitos-dieta p{
+
+section.conceitos-dieta p {
 	margin: 2vw 0 2vw 0;
 }
-section.conceitos-dieta ul{
+
+section.conceitos-dieta ul {
 	display: flex;
 	justify-content: space-evenly;
 	text-align: center;
 }
-section.conceitos-dieta ul li{
+
+section.conceitos-dieta ul li {
 	border: solid #00ffba;
 	border-radius: 10px;
 	margin: 2vw 1vw 2vw 1vw;
 	padding: 2vw;
 }
-section.conceitos-dieta ul li h2{
+
+section.conceitos-dieta ul li h2 {
 	font-size: 1rem;
 	color: #00ffba;
 	font-weight: bold;
 }
-section.conceitos-dieta ul li img{
+
+section.conceitos-dieta ul li img {
 	width: 20vw;
 	height: 13vw;
 	margin: 2vw 0 0 0;
 	border-radius: 10px;
 	border: solid #00ffba;
 }
+
 /*=======================================================================
                            ALIMENTAÇÃO-DICAS-DIETA
 ==========================================================================*/
-section.dicas-dieta h1{
+section.dicas-dieta h1 {
 	color: #00ffba;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 }
-section.dicas-dieta p{
+
+section.dicas-dieta p {
 	margin: 2vw 0 2vw 0;
 }
-section.dicas-dieta h2{
+
+section.dicas-dieta h2 {
 	font-size: 1rem;
 	color: #00ffba;
 	font-weight: bold;
 }
+
 /*=======================================================================
                            DICAS-INTRODUCTION
 ==========================================================================*/
-section.introduction{
+section.introduction {
 	margin: 4vw 3vw 4vw 3vw;
 }
-section.introduction h1{
+
+section.introduction h1 {
 	margin: 4vw 0 4vw 0;
 	color: #00ffba;
 	font-size: 2rem;
 	font-weight: bold;
 	text-align: center;
 }
-section.introduction p{
+
+section.introduction p {
 	margin: 2vw 0 2vw 0;
 }
+
 /*=======================================================================
                            DICAS-DUVIDAS
 ==========================================================================*/
-section.duvidas{
+section.duvidas {
 	margin: 0 3vw 0 3vw;
 }
-section.duvidas h2{
+
+section.duvidas h2 {
 	color: #00ffba;
 	font-weight: bold;
 	font-size: 1.5rem;
 }
-section.duvidas p{
+
+section.duvidas p {
 	margin: 2vw 0 2vw 0;
 }
-section.duvidas img{
+
+section.duvidas img {
 	border: solid #00ffba;
 	border-radius: 10px;
 	width: 30vw;
 	margin: 2vw 0 2vw 0;
 }
-section.duvidas p span{
+
+section.duvidas p span {
 	color: #00ffba;
 	font-weight: bold;
 }
-section.duvidas ul{
+
+section.duvidas ul {
 	display: flex;
 	justify-content: space-between;
 }
-section.duvidas ul li{
+
+section.duvidas ul li {
 	margin: 0 2vw 3vw 0;
 	padding: 3vw;
 	border: solid #00ffba;
 	border-radius: 10px;
 }
-section.duvidas ul li h3{
+
+section.duvidas ul li h3 {
 	text-align: center;
 	color: #00ffba;
 	font-weight: bold;
 	font-size: 1.3rem;
 }
-section.duvidas > div{
+
+section.duvidas>div {
 	display: flex;
 	justify-content: center;
 }
-section.duvidas div{
+
+section.duvidas div {
 	margin: 0 4vw 0 1.5vw;
 }
+
 /*=======================================================================
                            REFERENCIAS
 ==========================================================================*/
-section.referencias{
+section.referencias {
 	margin: 2vw 0 2vw 0;
 }
-section.referencias div.texto{
+
+section.referencias div.texto {
 	border: #00ffba solid;
 	border-radius: 25px;
 	padding: 4vw;
 	flex-wrap: wrap;
 }
-section.referencias h1{
+
+section.referencias h1 {
 	font-size: 2rem;
 	font-weight: bold;
 	color: white;
 	text-align: center;
 	margin: 2vw 0 2vw 0;
 }
-section.referencias p{
+
+section.referencias p {
 	margin: 2vw 0 2vw 0;
 }
-section.referencias p a{
+
+section.referencias p a {
 	color: white;
 }
+
 /*=======================================================================
                            VIDEO
 ==========================================================================*/
-section.video{
+section.video {
 	text-align: center;
 }
-section.video h2{
+
+section.video h2 {
 	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: center;
 	margin: 5vw;
 	border-top: solid 1px;
 	padding: 5vw 0 0 0;
-	
+
 }
-section.video p{
+
+section.video p {
 	font-size: 25px;
 	text-align: justify;
 	margin: 0 0 5vw 0;
 	color: black;
 	background: #00ffba;
-    border-radius: 15px;
-    padding: 2vw;
+	border-radius: 15px;
+	padding: 2vw;
 }
-section.video iframe{
+
+section.video iframe {
 	border-radius: 20px;
 	border: solid #00ffba 5px;
 }
-section.videofood{
+
+section.videofood {
 	text-align: center;
 	border-top: solid 1px;
 	margin: 0 10vw 0 10vw;
 	padding: 4vw 0 0 0;
 }
-section.videofood h2{
+
+section.videofood h2 {
 	font-size: 2rem;
 	font-weight: bold;
 	color: #00ffba;
 	margin: 0 0 4vw 0;
 }
-section.videofood iframe{
+
+section.videofood iframe {
 	border-radius: 20px;
 	border: solid #00ffba 5px;
 }
+
 /*=======================================================================
                            SOBRE-NÓS
 ==========================================================================*/
-section.sobre{
-	margin: 4vw 0 0 0 ;
+section.sobre {
+	margin: 4vw 0 0 0;
 }
-section.sobre p{
+
+section.sobre p {
 	margin: 2vw 0 2vw 0;
 }
-section.equipe h2{
+
+section.equipe h2 {
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
 	color: #00ffba;
 	margin: 4vw 0 2vw 0;
 }
-section.equipe div{
+
+section.equipe div {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
-section.equipe div img{
+
+section.equipe div img {
 	width: 40%;
 	border: 1px solid white;
 	border-radius: 10px;
 }
+
 /*=======================================================================
                            FOOTER
 ==========================================================================*/
@@ -537,281 +697,358 @@ footer {
 	text-align: center;
 	align-items: center;
 	margin: 5vw 0 0 0;
-	padding: 0 10vw 0 10vw; ;
+	padding: 0 10vw 0 10vw;
+	;
 	background: #323232;
 	border-top: solid 2px white;
 	height: 15vw
 }
-footer{
+
+footer {
 	height: 10vw;
 }
-footer i.fa-dumbbell{
+
+footer i.fa-dumbbell {
 	margin: 8vw 0 0 0;
 	animation: alter-inicio 2s infinite;
 }
-@keyframes alter-inicio{
-	0%{
+
+@keyframes alter-inicio {
+	0% {
 		margin: 8vw 0 0 0;
 	}
-	50%{
+
+	50% {
 		margin: 0;
 		font-size: 1rem;
 		transform: rotate(360deg);
 	}
-	100%{
+
+	100% {
 		margin: 8vw 0 0 0;
 	}
 }
+
 footer p {
 	font-size: 15px;
 	margin: 3vw 5vw 3vw 5vw;
 }
-footer p a{
+
+footer p a {
 	margin: 0 1vw 0 1vw;
 	font-size: 40px;
 	color: white;
 }
+
 /*=======================================================================
                            responsivel
 ==========================================================================*/
-@media screen and (max-width: 1000px){	
-	.flex2{
+@media screen and (max-width: 1000px) {
+	.flex2 {
 		flex-direction: column;
 	}
-	.no-border{
+
+	.no-border {
 		flex-direction: column-reverse;
 	}
-	.flex{
+
+	.flex {
 		flex-direction: column-reverse;
 	}
-	section.informativo ul li div img{
-		margin: 0vw 0vw 0vw 5vw ;
+
+	section.informativo ul li div img {
+		margin: 0vw 0vw 0vw 5vw;
 		width: 80vw;
 		height: 50vw;
-	}section.video iframe{
+	}
+
+	section.video iframe {
 		width: 70vw;
 		height: 40vw;
 	}
-	section.videofood iframe{
+
+	section.videofood iframe {
 		width: 70vw;
 		height: 40vw;
 	}
-	section.dicas-dieta p{
+
+	section.dicas-dieta p {
 		margin: 2vw 0 10vw 0;
 	}
-	section.dicas-dieta h2{
+
+	section.dicas-dieta h2 {
 		font-size: 1rem;
 		color: #00ffba;
 		font-weight: bold;
 	}
+
 	/*=======================================================================
                           			footer
 ==========================================================================*/
 	footer {
 		height: 35vw
-	}footer p{
+	}
+
+	footer p {
 		display: flex;
 	}
-	section.duvidas img{
-    margin:0vw 0vw 0vw 2vw;
-	width: 90%;
-}
-section.duvidas p{
-	margin: 2vw 0 5vw 0;
-}
-section.referencias div.texto{
-	font-size: 11px;
-	border: #00ffba solid;
-	border-radius: 25px;
-	padding: 4vw;
-}
-section.invite-ct div.nosso{
-	flex-direction: column;
-	text-align: center;
-}section.geral-exercicios p{
-	text-align: center;
-}
-section.informativo{
-	margin: 4vw 0 0 0;
-}
-section.informativo ul li p{
-	text-align: center;
-	margin:0vw 0vw 0vw 5vw;
-}
-section.informativo ul li.no-border{
-	align-items: center;
-}section.informativo ul li h2{
-	text-align: center;
-	margin: 1vw 0 2vw 5vw;
-}
-section.introduction p{
-	margin: 2vw 0 2vw 0;
-	text-align: center;
-}section.duvidas h2{
-	text-align: center;
-}
-section.duvidas p{
-	margin: 3vw 0 6vw 0;
-	text-align: justify;
-}section.duvidas p.centerp{
-	text-align: center;
-}
-section.duvidas p span{
-	color: #00ffba;
-	font-weight: bold;
-}
-section.duvidas ul{
-	display: flex;
-	justify-content: space-between;
-}
-section.duvidas ul li{
-	margin: 0 2vw 3vw 0;
-	padding: 3vw;
-	border: solid #00ffba;
-	border-radius: 10px;
-}section.conceitos-dieta p{
-	margin: 2vw 0 2vw 0;
-	text-align: center;
-	/*=======================================================================
+
+	section.duvidas img {
+		margin: 0vw 0vw 0vw 2vw;
+		width: 90%;
+	}
+
+	section.duvidas p {
+		margin: 2vw 0 5vw 0;
+	}
+
+	section.referencias div.texto {
+		font-size: 11px;
+		border: #00ffba solid;
+		border-radius: 25px;
+		padding: 4vw;
+	}
+
+	section.invite-ct div.nosso {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	section.geral-exercicios p {
+		text-align: center;
+	}
+
+	section.informativo {
+		margin: 4vw 0 0 0;
+	}
+
+	section.informativo ul li p {
+		text-align: center;
+		margin: 0vw 0vw 0vw 5vw;
+	}
+
+	section.informativo ul li.no-border {
+		align-items: center;
+	}
+
+	section.informativo ul li h2 {
+		text-align: center;
+		margin: 1vw 0 2vw 5vw;
+	}
+
+	section.introduction p {
+		margin: 2vw 0 2vw 0;
+		text-align: center;
+	}
+
+	section.duvidas h2 {
+		text-align: center;
+	}
+
+	section.duvidas p {
+		margin: 3vw 0 6vw 0;
+		text-align: justify;
+	}
+
+	section.duvidas p.centerp {
+		text-align: center;
+	}
+
+	section.duvidas p span {
+		color: #00ffba;
+		font-weight: bold;
+	}
+
+	section.duvidas ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	section.duvidas ul li {
+		margin: 0 2vw 3vw 0;
+		padding: 3vw;
+		border: solid #00ffba;
+		border-radius: 10px;
+	}
+
+	section.conceitos-dieta p {
+		margin: 2vw 0 2vw 0;
+		text-align: center;
+		/*=======================================================================
                           		 sobre nós
 ==========================================================================*/
-}section.sobre{
-	margin: 4vw 0 0 0 ;
-}section.sobre p{
-	margin: 2vw 0 2vw 0;
-	font-size: 1.5rem;
-	text-align: center;
-	
-}section.equipe p.Nossaequipe{
-	text-align: center;
-	font-size: 1.7rem;
-}
-section.equipe h2{
-	font-size: 2rem;
-	font-weight: bold;
-	color: #00ffba;
-	margin: 4vw 0 2vw 0;
-	text-align: center;
+	}
 
-	/*==================================================================
+	section.sobre {
+		margin: 4vw 0 0 0;
+	}
+
+	section.sobre p {
+		margin: 2vw 0 2vw 0;
+		font-size: 1.5rem;
+		text-align: center;
+
+	}
+
+	section.equipe p.Nossaequipe {
+		text-align: center;
+		font-size: 1.7rem;
+	}
+
+	section.equipe h2 {
+		font-size: 2rem;
+		font-weight: bold;
+		color: #00ffba;
+		margin: 4vw 0 2vw 0;
+		text-align: center;
+
+		/*==================================================================
                           	TREINO
 ==========================================================================*/
-}section.area-treino div p{
-	font-size: 1.3rem;
-}
-section.area-treino div h2 span{
-margin: 3vw 0 3vw 0;
-font-weight: bold;
-font-size: 1.8rem;
-text-align: center;
-color: #00ffba;
-}
-section.area-treino div.aquecimento ol li{
-margin: 3vw 0 3vw 0;
-border: solid white 1px;
-border-radius: 10px;
-padding: 2vw;
-}
-section.area-treino div.aquecimento ol li p span{
-color: #00ffba;
-font-size: 1.5rem;
-}section.area-treino div.treino{
-	text-align: center;
-}
-section.area-treino div.treino p{
-text-align: center;
-margin: 3.5vw 0 1.5vw 0;
-font-weight: bold;
-font-size: 1.2rem;
-}
-section.area-treino div.treino ol{
- flex-direction: column;
- 
-}section.area-treino div.treino ol.inverter{
- flex-direction: column;
-}
+	}
 
-section.area-treino div.treino ol li{
-border: solid white 1px;
-border-radius: 10px;
-padding: 2vw;
-margin: 2vw 4vw 2vw 4vw;
-width: 86%;
-}
-section.area-treino div.treino ol li h3{
-color: #00ffba;
-font-weight: bold;
-font-size: 1.5rem;
-}
-section.area-treino div.treino ol li p{
-margin: 2vw 0 2vw 0;
-font-weight: normal;
-text-align: left;
+	section.area-treino div p {
+		font-size: 1.3rem;
+	}
 
-}form.roteiro{
-	margin: 0 3vw 0 3vw;
-	border-radius: 15px;
-	background: rgb(87, 87, 87);
-	padding: 2vw 4vw 2vw 4vw;
-	align-content: center;
-}
-form.roteiro h2 {
-	color: #00ffba;
-	text-align: center;
-	font-weight: bold;
-	font-size: 25px;
-}
-form.roteiro div{
-	margin: 2vw 5vw 2vw 5vw;
-	text-align: center;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-}
-form.roteiro select{
-	font-size: 18px;
-	border: none;
-	background: #00ffba;
-	border-radius: 10px;
-	margin: 8px;
-	padding: 10px;
-	text-align: center;
-	font-size: larger;
-}
-form.roteiro select:hover{
-	background-color: white;
-	font-size: 17px;
-}
-form.roteiro button {
-	font-size: 20px;
-	border: none;
-	background: #00ffba;
-	border-radius: 10px;
-	padding: 10px;
-}
-form.roteiro button:hover{
-	background-color: white;
-	font-size: 17px;
-}form.roteiro div label{
-	font-size: 20px;
-	margin: 5px;
-}section.video p{
-	font-size: 18px;
-	text-align: center;
-	margin: 0 0 5vw 0;
-	color: black;
-	background: #00ffba;
-    border-radius: 15px;
-    padding: 5vw;
-}section.equipe div{
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-}
-section.equipe div img{
-	width: 60%;
-	border: 1px solid white;
-	border-radius: 10px;
-	margin: 5vw;
-}
+	section.area-treino div h2 span {
+		margin: 3vw 0 3vw 0;
+		font-weight: bold;
+		font-size: 1.8rem;
+		text-align: center;
+		color: #00ffba;
+	}
+
+	section.area-treino div.aquecimento ol li {
+		margin: 3vw 0 3vw 0;
+		border: solid white 1px;
+		border-radius: 10px;
+		padding: 2vw;
+	}
+
+	section.area-treino div.aquecimento ol li p span {
+		color: #00ffba;
+		font-size: 1.5rem;
+	}
+
+	section.area-treino div.treino {
+		text-align: center;
+	}
+
+	section.area-treino div.treino p {
+		text-align: center;
+		margin: 3.5vw 0 1.5vw 0;
+		font-weight: bold;
+		font-size: 1.2rem;
+	}
+
+	section.area-treino div.treino ol {
+		flex-direction: column;
+
+	}
+
+	section.area-treino div.treino ol.inverter {
+		flex-direction: column;
+	}
+
+	section.area-treino div.treino ol li {
+		border: solid white 1px;
+		border-radius: 10px;
+		padding: 2vw;
+		margin: 2vw 4vw 2vw 4vw;
+		width: 86%;
+	}
+
+	section.area-treino div.treino ol li h3 {
+		color: #00ffba;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+
+	section.area-treino div.treino ol li p {
+		margin: 2vw 0 2vw 0;
+		font-weight: normal;
+		text-align: left;
+
+	}
+
+	form.roteiro {
+		margin: 0 3vw 0 3vw;
+		border-radius: 15px;
+		background: rgb(87, 87, 87);
+		padding: 2vw 4vw 2vw 4vw;
+		align-content: center;
+	}
+
+	form.roteiro h2 {
+		color: #00ffba;
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	form.roteiro div {
+		margin: 2vw 5vw 2vw 5vw;
+		text-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	form.roteiro select {
+		font-size: 18px;
+		border: none;
+		background: #00ffba;
+		border-radius: 10px;
+		margin: 8px;
+		padding: 10px;
+		text-align: center;
+		font-size: larger;
+	}
+
+	form.roteiro select:hover {
+		background-color: white;
+		font-size: 17px;
+	}
+
+	form.roteiro button {
+		font-size: 20px;
+		border: none;
+		background: #00ffba;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	form.roteiro button:hover {
+		background-color: white;
+		font-size: 17px;
+	}
+
+	form.roteiro div label {
+		font-size: 20px;
+		margin: 5px;
+	}
+
+	section.video p {
+		font-size: 18px;
+		text-align: center;
+		margin: 0 0 5vw 0;
+		color: black;
+		background: #00ffba;
+		border-radius: 15px;
+		padding: 5vw;
+	}
+
+	section.equipe div {
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	section.equipe div img {
+		width: 60%;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 5vw;
+	}
 }
