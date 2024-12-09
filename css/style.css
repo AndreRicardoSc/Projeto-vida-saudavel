@@ -201,12 +201,17 @@ header nav ul li {
 	margin: 3vw 0 3vw 0;
 	text-align: center;
 }
-
-header nav ul li a {
-	color: black;
-	font-size: 25px;
+header nav ul li a.atual{
+	color: white;
 }
-
+header nav ul li a i{
+	font-size: 25px;
+	transition: 0.5s;
+}
+header nav ul li a i:hover{
+	font-size: 30px;
+	color: white;
+}
 header nav ul li p {
 	color: black;
 	font-size: 15px;
