@@ -216,7 +216,6 @@ header nav ul li p {
 	color: black;
 	font-size: 15px;
 }
-
 section.introducao h1 {
 	font-weight: bold;
 	text-align: center;
@@ -228,7 +227,7 @@ section.introducao ul {
 	display: flex;
 	justify-content: space-between;
 	background: #00ffba;
-	border-radius: 15px;
+	border-radius: 50px;
 	padding: 2vw;
 }
 
@@ -237,7 +236,7 @@ section.introducao ul li {
 	background: white;
 	margin: 2vw 1vw 2vw 4vw;
 	padding: 2vw;
-	border-radius: 15px;
+	border-radius: 50px;
 }
 /*=======================================================================
                            CRIAR-TREINO-OBJETIVOS
@@ -633,10 +632,9 @@ section.video p {
 	margin: 0 0 5vw 0;
 	color: black;
 	background: #00ffba;
-	border-radius: 15px;
+	border-radius: 50px;
 	padding: 2vw;
 }
-
 section.video iframe {
 	border-radius: 20px;
 	border: solid #00ffba 5px;
@@ -760,7 +758,14 @@ footer p a {
 	.flex {
 		flex-direction: column-reverse;
 	}
-
+	section.introducao ul{
+		width: 100%;
+		flex-wrap: wrap;
+		border-radius: 10px;
+	}
+	section.introducao ul li{
+		border-radius: 10px;
+	}
 	section.informativo ul li div img {
 		margin: 0vw 0vw 0vw 5vw;
 		width: 80vw;
