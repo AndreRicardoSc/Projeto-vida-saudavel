@@ -457,5 +457,6 @@ function criarTreino(event) {
                 </ol>`;
         }
     }
+    //evento para não recarregar a página quando selecionar outras opções
     event.preventDefault()
 }
