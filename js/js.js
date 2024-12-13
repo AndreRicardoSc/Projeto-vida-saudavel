@@ -24,7 +24,7 @@ function criarTreino(event) {
     }
     else if (tipoAquecimento == "ombros") {
         aquecimento.innerHTML = `
-        <<h2>Aqui está seu aquecimento para ombros</h2>
+        <h2>Aqui está seu aquecimento para ombros</h2>
                 <ol class="inverter">
                     <li>
                         <p><span>1. Flexão:</span>  Coloque-se de pé, perpendicularmente a uma parede, com os apoios à largura dos ombros e um pé posicionado ligeiramente mais à frente do outro. Os braços ao nível do ombro, em extensão, coloque a palma da mão na parede, com o polegar para cima e incline o tronco para a frente. Mantenha o alongamento por 20 segundos. Mantenha os cotovelos trancados e a coluna direita. Quanto mais à frente estiver o pé dianteiro em relação à posição do alinhamento da mão na parede, maior é o alongamento.</p>
