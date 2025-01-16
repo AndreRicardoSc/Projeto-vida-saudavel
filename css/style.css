@@ -787,7 +787,7 @@ footer p a {
 ==========================================================================*/
 @media screen and (max-width: 1000px) {
 	header nav.menu ul li a i{
-		font-size: 15px;
+		font-size: 10px;
 	}
 	.flex2 {
 		flex-direction: column;
