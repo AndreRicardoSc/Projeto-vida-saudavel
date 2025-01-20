@@ -158,6 +158,30 @@ a.atual {
 section {
 	padding: 0 10vw 0 10vw;
 }
+.hidden-rl{
+	opacity: 0;
+	filter: blur(10px);
+	transform: translateX(100%);
+	transition: all 1s;
+}
+.show-rl{
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+	transition: all 1s;
+}
+.hidden-lr{
+	opacity: 0;
+	filter: blur(10px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+.show-lr{
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+	transition: all 1s;
+}
 .hidden-header{
 	opacity: 0;
 	filter: blur(15px);
@@ -266,7 +290,9 @@ section.introducao ul {
 	padding: 2vw;
 	box-shadow: 5px 5px 10px black;
 }
-
+section.introducao ul :nth-child(2){
+	transition-delay: 200ms;
+}
 section.introducao ul li {
 	color: black;
 	background: white;
@@ -574,7 +600,12 @@ section.conceitos-dieta ul {
 	justify-content: space-evenly;
 	text-align: center;
 }
-
+section.conceitos-dieta ul :nth-child(2){
+	transition-delay: 200ms;
+}
+section.conceitos-dieta ul :nth-child(3){
+	transition-delay: 400ms;
+}
 section.conceitos-dieta ul li {
 	border: solid #00ffba;
 	border-radius: 10px;
