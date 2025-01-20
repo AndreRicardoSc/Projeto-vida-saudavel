@@ -162,13 +162,13 @@ section {
 	opacity: 0;
 	filter: blur(15px);
 	transform: translateX(-100%);
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 .show-header{
 	opacity: 1;
 	filter: blur(0);
 	transform: translateX(0);
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 /*=======================================================================
                            INTRODUÇÃO
