@@ -240,7 +240,7 @@ header nav ul li a.atual{
 }
 header nav ul li a i{
 	font-size: 25px;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 header nav ul li a i:hover{
 	font-size: 30px;
