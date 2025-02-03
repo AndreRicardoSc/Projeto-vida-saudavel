@@ -3,8 +3,6 @@ const myObserverHeader = new IntersectionObserver( (entries) => {
     entries.forEach( (entry) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show-header');
-        } else{
-            entry.target.classList.remove('show-header');
         }
     } )
 });
