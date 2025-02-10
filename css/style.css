@@ -529,15 +529,19 @@ section.area-treino div.treino ol li {
 	margin: 2vw 4vw 2vw 4vw;
 	width: 30vw;
 	transition: 0.5s;
+	background-color: white;
 }
 section.area-treino div.treino ol li:hover{
 	box-shadow: 10px 10px 10px black;
+	background-color: #323232;
 }
 section.area-treino div.treino ol li h3 {
-	color: #00ffba;
+	color: white;
 	font-weight: bold;
 }
-
+section.area-treino div.treino ol li:hover h3{
+	color: #00ffba;
+}
 section.area-treino div.treino ol li p {
 	margin: 2vw 0 2vw 0;
 	font-weight: normal;
