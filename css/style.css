@@ -435,7 +435,7 @@ section.invite-ct div.aviso h1 {
                            CRIA-TREINO-CRIAÇÃO
 ==========================================================================*/
 form.roteiro {
-	margin: 0 3vw 0 3vw;
+	margin: 0 10vw 0 10vw;
 	border-radius: 15px;
 	background: rgb(87, 87, 87);
 	padding: 2vw 4vw 2vw 4vw;
@@ -468,6 +468,7 @@ form.roteiro select {
 form.roteiro select:hover {
 	background-color: rgb(87, 87, 87);
 	color: #00ffba;
+	cursor: pointer;
 }
 
 form.roteiro button {
@@ -482,6 +483,7 @@ form.roteiro button {
 form.roteiro button:hover {
 	background-color: rgb(87, 87, 87);
 	color: #00ffba;
+	cursor: pointer;
 }
 form.roteiro button:active{
 	background-color: white;
