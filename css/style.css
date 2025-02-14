@@ -299,7 +299,7 @@ section.introducao ul li {
 	margin: 2vw 1vw 2vw 4vw;
 	padding: 2vw;
 	border-radius: 50px;
-	transition: 0.3s;
+	transition: 1s;
 }
 section.introducao ul li:hover{
 	box-shadow: 5px 5px 10px black;

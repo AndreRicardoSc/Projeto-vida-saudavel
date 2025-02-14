@@ -16,8 +16,6 @@ const myObserverLr = new IntersectionObserver ( (entries) => {
     entries.forEach( (entry) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show-lr');
-        } else{
-            entry.target.classList.remove('show-lr');
         }
     })
 });
@@ -32,7 +30,7 @@ const myObserverRl = new IntersectionObserver ( (entries) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show-rl');
         } else{
-            entry.target.classList.remove('show-rl');
+            entry.target.classList.remove('show-rl')
         }
     })
 });
