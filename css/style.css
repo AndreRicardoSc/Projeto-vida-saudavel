@@ -194,39 +194,6 @@ section {
 	transform: translateX(0);
 	transition: all 0.3s;
 }
-i{
-	position: relative;
-  	display: inline-block;
-}
-i .tooltip{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	visibility: hidden;
-  	color: #fff;
-  	text-align: center;
-  	padding: 5px 5px;
-  	border-radius: 6px;
-  	position: absolute;
-  	border: 1px solid white;
-	transition: all 0.3s;
-	filter: blur(10px);
-	bottom: 100%;
-	left: 50%;
-	margin-left: -50px;
-}
-i:hover .tooltip{
-	visibility: visible;
-	filter: blur(0);
-}
-i .tooltip::after{
-	content: " ";
-  	position: absolute;
-  	top: 100%; /* At the bottom of the tooltip */
-  	left: 50%;
-  	margin-left: -5px;
-  	border-width: 5px;
-  	border-style: solid;
-  	border-color: white transparent transparent transparent;
-}
 /*=======================================================================
                            INTRODUÇÃO
 ==========================================================================*/
