@@ -29,8 +29,6 @@ const myObserverRl = new IntersectionObserver ( (entries) => {
     entries.forEach( (entry) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show-rl');
-        } else{
-            entry.target.classList.remove('show-rl')
         }
     })
 });
